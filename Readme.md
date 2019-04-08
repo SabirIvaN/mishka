@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Иван Сабиров](https://up.htmlacademy.ru/adaptive/16/user/833979).
-* Наставник: `Неизвестно`.
+* Наставник: [Агалар Ашурбеков](https://htmlacademy.ru/profile/id66539).
 
 ---
 
