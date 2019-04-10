@@ -11,6 +11,12 @@
       </a>
       <nav class="main-nav">
         <button class="main-nav__button" type="button">Открыть меню</button>
+        <ul class="main-nav__list">
+          <li class="main-nav__list-item">Каталог товаров</li>
+          <li class="main-nav__list-item">Вязание на заказ</li>
+          <li class="main-nav__list-item">Поиск по сайту</li>
+          <li class="main-nav__list-item">Корзина: пока пуста</li>
+        </ul>
       </nav>
     </header>
     <main class="page-main">
@@ -101,5 +107,18 @@
         </span>
       </section>
     </footer>
+    <div class="modal-window">
+      <h1 class="modal-window__title">Добавить в корзину</h1>
+      <span class="modal-window__select">Выберите размер:</span>
+      <div class="modal-window__radio-buttons">
+        <input class="modal-window__radio" id="modal-window__radio-1" type="radio" value="S">
+        <label class="modla-window__label" for="modal-window__radio-1">S</label>
+        <input class="modal-window__radio" id="modal-window__radio-2" type="radio" value="M">
+        <label class="modla-window__label" for="modal-window__radio-2">M</label>
+        <input class="modal-window__radio" id="modal-window__radio-3" type="radio" value="L">
+        <label class="modla-window__label" for="modal-window__radio-3">L</label>
+      </div>
+      <button class="button modal-window__button" type="button">Добавить</button>
+    </div>
   </body>
 </html>
