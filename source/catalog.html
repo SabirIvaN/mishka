@@ -6,52 +6,54 @@
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo">
+      <a class="page-header__logo" href="#index">
         <img class="page-header__logo-image" src="#logo-image" alt="Mishka" width="86" height="35">
       </a>
       <nav class="main-nav">
-        <button class="main-nav__button" type="button">Открыть меню</button>
+        <button class="main-nav__button">Открыть меню</button>
         <ul class="main-nav__list">
-          <li class="main-nav__list-item">Каталог товаров</li>
-          <li class="main-nav__list-item">Вязание на заказ</li>
-          <li class="main-nav__list-item">Поиск по сайту</li>
-          <li class="main-nav__list-item">Корзина: пока пуста</li>
+          <li class="main-nav__item"><a class="main-nav__link">Каталог товаров</a></li>
+          <li class="main-nav__item"><a class="main-nav__link">Вязание на заказ</a></li>
+          <li class="main-nav__item"><a class="main-nav__link">Поиск по сайту</a></li>
+          <li class="main-nav__item"><a class="main-nav__link">Корзина: пока пуста</a></li>
         </ul>
       </nav>
     </header>
     <main class="page-main">
-      <h1 class="title page-main__title">Каталог товаров</h1>
-      <section class="price">
-        <div class="price-item">
-          <img class="price-item__image" src="#price-item-image" alt="Зайчик попрыгайчик" width="260" height="195">
-          <h1 class="title price-item__title">Зайчик-попрыгайчик</h1>
-          <span class="price-item__description">Рост 30см, вес 200 г</span>
-          <div class="price-item__cost">
-            <span class="title price-item__cost-title">1 200 руб.</span>
-            <button class="price-item__shopping-basket" type="button">Купить</button>
+      <section class="main-title">
+        <h1 class="main-title__heading">Каталог товаров</h1>
+      </section>
+      <section class="catalog">
+        <article class="catalog__item">
+          <img class="catalog__image" src="#catalog-image" alt="Зайчик попрыгайчик" width="260" height="195">
+          <h1 class="title catalog__title">Зайчик-попрыгайчик</h1>
+          <span class="catalog__description">Рост 30см, вес 200 г</span>
+          <div class="catalog__cost">
+            <span class="title catalog__price">1 200 руб.</span>
+            <button class="catalog__purchase" type="button">Купить</button>
           </div>
-        </div>
-        <div class="price-item">
-          <img class="price-item__image" src="#price-item-image" alt="Зайчик попрыгайчик" width="260" height="195">
-          <h1 class="title price-item__title">Корзина для белья</h1>
-          <span class="price-item__description">Диаметр 15 см, высота 10 см</span>
-          <div class="price-item__cost">
-            <span class="title price-item__cost-title">690 руб.</span>
-            <button class="price-item__shopping-basket" type="button">Купить</button>
+        </article>
+        <article class="catalog__item">
+          <img class="catalog__image" src="#catalog-image" alt="Зайчик попрыгайчик" width="260" height="195">
+          <h1 class="title catalog__title">Корзина для белья</h1>
+          <span class="catalog__description">Диаметр 15 см, высота 10 см</span>
+          <div class="catalog__cost">
+            <span class="title catalog__price">690 руб.</span>
+            <button class="catalog__purchase" type="button">Купить</button>
           </div>
-        </div>
-        <div class="price-item">
-          <img class="price-item__image" src="#price-item-image" alt="Зайчик попрыгайчик" width="260" height="195">
-          <h1 class="title price-item__title">Большая корзина для игрушек</h1>
-          <span class="price-item__description">Диаметр 30 см, высота 30 см</span>
-          <div class="price-item__cost">
-            <span class="title price-item__cost-title">1 500 руб.</span>
-            <button class="price-item__shopping-basket" type="button">Купить</button>
+        </article>
+        <article class="catalog__item">
+          <img class="catalog__image" src="#catalog-image" alt="Зайчик попрыгайчик" width="260" height="195">
+          <h1 class="title catalog__title">Большая корзина для игрушек</h1>
+          <span class="catalog__description">Диаметр 30 см, высота 30 см</span>
+          <div class="catalog__costt">
+            <span class="title catalog__price">1 500 руб.</span>
+            <button class="catalog__purchase" type="button">Купить</button>
           </div>
-        </div>
+        </article>
         <div class="produce">
           <h1 class="title produce__title">Процесс производства</h1>
-          <video src="#produce-video" poster="#produce-video-poster" width="260" height="150"></video>
+          <video class="produce__video" src="#produce-video" poster="#produce-video-poster" width="260" height="150"></video>
           <p class="produce__text">
             По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.
           </p>
@@ -60,28 +62,24 @@
       </section>
     </main>
     <footer class="page-footer">
-      <section class="social-network">
-        <a class="social-network__icon social-network--instagramm" href="#">Instagramm</a>
-        <a class="social-network__icon social-network--facebook" href="#">Facebook</a>
-        <a class="social-network__icon social-network--twitter" href="#">Twitter</a>
-      </section>
+      <ul class="social-network">
+        <li class="social-network__icon"><a class="social-network__instagramm" href="#">Instagramm</a></li>
+        <li class="social-network__icon"><a class="social-network__facebook" href="#">Facebook</a></li>
+        <li class="social-network__icon"><a class="social-network__twitter" href="#">Twitter</a></li>
+      </ul>
       <section class="developer">
-        <span class="developer__link">Разработано
-          <a class="developer__link-item">
-            <img class="developer__image" src="#htmlacademy" width="27" height="34">
-          </a>
-        </span>
+        <a class="developer">Разработано <img class="developer__image" src="#htmlacademy" width="27" height="34"></a>
       </section>
     </footer>
     <div class="modal-window">
       <h1 class="modal-window__title">Добавить в корзину</h1>
-      <span class="modal-window__select">Выберите размер:</span>
+      <span class="modal-window__subtitle">Выберите размер:</span>
       <div class="modal-window__radio-buttons">
-        <input class="modal-window__radio" id="modal-window__radio-1" type="radio" value="S">
+        <input class="modal-window__radio" name="radio-size" id="modal-window__radio-1" type="radio" value="S">
         <label class="modla-window__label" for="modal-window__radio-1">S</label>
-        <input class="modal-window__radio" id="modal-window__radio-2" type="radio" value="M">
+        <input class="modal-window__radio" name="radio-size" id="modal-window__radio-2" type="radio" value="M">
         <label class="modla-window__label" for="modal-window__radio-2">M</label>
-        <input class="modal-window__radio" id="modal-window__radio-3" type="radio" value="L">
+        <input class="modal-window__radio" name="radio-size" id="modal-window__radio-3" type="radio" value="L">
         <label class="modla-window__label" for="modal-window__radio-3">L</label>
       </div>
       <button class="button modal-window__button" type="button">Добавить</button>
