@@ -7,68 +7,68 @@
   <body>
     <header class="page-header">
       <a class="page-header__logo" href="#index">
-        <img class="page-header__logo-image" src="#logo-image" alt="Mishka" width="86" height="35">
+        <img class="page-header__logo-image" src="http://placehold.it/86x35" alt="Mishka">
       </a>
       <nav class="main-nav">
         <button class="main-nav__button">Открыть меню</button>
         <ul class="main-nav__list">
-          <li class="main-nav__item"><a class="main-nav__link">Каталог товаров</a></li>
-          <li class="main-nav__item"><a class="main-nav__link">Вязание на заказ</a></li>
-          <li class="main-nav__item"><a class="main-nav__link">Поиск по сайту</a></li>
-          <li class="main-nav__item"><a class="main-nav__link">Корзина: пока пуста</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Каталог товаров</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Вязание на заказ</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Поиск по сайту</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Корзина: пока пуста</a></li>
         </ul>
       </nav>
     </header>
     <main class="page-main">
-      <section class="main-title">
+      <header class="main-title">
         <h1 class="main-title__heading">Каталог товаров</h1>
-      </section>
-      <section class="catalog">
-        <article class="catalog__item">
-          <img class="catalog__image" src="#catalog-image" alt="Зайчик попрыгайчик" width="260" height="195">
-          <h1 class="title catalog__title">Зайчик-попрыгайчик</h1>
+      </header>
+      <ul class="catalog">
+        <li class="catalog__item">
+          <img class="catalog__image" src="http://placehold.it/260x195" alt="Зайчик попрыгайчик">
+          <h1 class="catalog__title">Зайчик-попрыгайчик</h1>
           <span class="catalog__description">Рост 30см, вес 200 г</span>
           <div class="catalog__cost">
-            <span class="title catalog__price">1 200 руб.</span>
+            <span class="catalog__price">1 200 руб.</span>
             <button class="catalog__purchase" type="button">Купить</button>
           </div>
-        </article>
-        <article class="catalog__item">
-          <img class="catalog__image" src="#catalog-image" alt="Зайчик попрыгайчик" width="260" height="195">
-          <h1 class="title catalog__title">Корзина для белья</h1>
+        </li>
+        <li class="catalog__item">
+          <img class="catalog__image" src="http://placehold.it/260x195" alt="Зайчик попрыгайчик">
+          <h1 class="catalog__title">Корзина для белья</h1>
           <span class="catalog__description">Диаметр 15 см, высота 10 см</span>
           <div class="catalog__cost">
-            <span class="title catalog__price">690 руб.</span>
+            <span class="catalog__price">690 руб.</span>
             <button class="catalog__purchase" type="button">Купить</button>
           </div>
-        </article>
-        <article class="catalog__item">
-          <img class="catalog__image" src="#catalog-image" alt="Зайчик попрыгайчик" width="260" height="195">
-          <h1 class="title catalog__title">Большая корзина для игрушек</h1>
+        </li>
+        <li class="catalog__item">
+          <img class="catalog__image" src="http://placehold.it/260x195" alt="Зайчик попрыгайчик">
+          <h1 class="catalog__title">Большая корзина для игрушек</h1>
           <span class="catalog__description">Диаметр 30 см, высота 30 см</span>
           <div class="catalog__costt">
-            <span class="title catalog__price">1 500 руб.</span>
+            <span class="catalog__price">1 500 руб.</span>
             <button class="catalog__purchase" type="button">Купить</button>
           </div>
-        </article>
-        <div class="produce">
-          <h1 class="title produce__title">Процесс производства</h1>
-          <video class="produce__video" src="#produce-video" poster="#produce-video-poster" width="260" height="150"></video>
-          <p class="produce__text">
-            По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.
-          </p>
-          <button class="button produce__button" type="button">Сделать заказ</button>
-        </div>
-      </section>
+        </li>
+      </ul>
+      <div class="produce">
+        <h1 class="produce__title">Процесс производства</h1>
+        <video class="produce__video" src="#produce-video" poster="#produce-video-poster"></video>
+        <p class="produce__text">
+          По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.
+        </p>
+        <button class="button produce__button" type="button">Сделать заказ</button>
+      </div>
     </main>
     <footer class="page-footer">
       <ul class="social-network">
-        <li class="social-network__icon"><a class="social-network__instagramm" href="#">Instagramm</a></li>
-        <li class="social-network__icon"><a class="social-network__facebook" href="#">Facebook</a></li>
-        <li class="social-network__icon"><a class="social-network__twitter" href="#">Twitter</a></li>
+        <li class="social-network__icon"><a class="social-network__link social-network--instagramm" href="#">Instagramm</a></li>
+        <li class="social-network__icon"><a class="social-network__link social-network--facebook" href="#">Facebook</a></li>
+        <li class="social-network__icon"><a class="social-network__link social-network--twitter" href="#">Twitter</a></li>
       </ul>
       <section class="developer">
-        <a class="developer">Разработано <img class="developer__image" src="#htmlacademy" width="27" height="34"></a>
+        <a class="developer__link">Разработано <img class="developer__image" src="http://placehold.it/260x150"></a>
       </section>
     </footer>
     <div class="modal-window">
