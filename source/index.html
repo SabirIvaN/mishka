@@ -2,11 +2,119 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Мишка</title>
+    <title>Mishka</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+    <header class="page-header">
+      <a class="page-header__logo" href="#index">
+        <img class="page-header__logo-image" src="http://placehold.it/86x35" alt="Mishka">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__button">Открыть меню</button>
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Каталог товаров</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Вязание на заказ</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Поиск по сайту</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Корзина: пока пуста</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="page-main">
+      <section class="hero">
+        <h1 class="hero__title">Милые штуки ручной работы для дома</h1>
+      </section>
+      <section class="categories">
+        <div class="categories__element">
+          <span class="categories__value">Предметы интерьера</span>
+        </div>
+        <div class="categories__element">
+          <span class="categories__value">Детские игрушки</td>
+        </div>
+      </section>
+      <section class="featured">
+        <h1 class="featured__title">Вязанные корзинки</h1>
+        <h2 class="featured__subtitle">Товар недели</h2>
+        <p class="featured__text">
+          Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трёх размерах.
+        </p>
+        <table class="featured__list">
+          <tr class="featured__element">
+            <td class="featured__field">Цвет:</td>
+            <td class="featured__value">«Тиффани»/серый</td>
+          </tr>
+          <tr class="featured__element">
+            <td class="featured__field">Диаметр:</td>
+            <td class="featured__value">25 см</td>
+          </tr>
+          <tr class="featured__element">
+            <td class="featured__field">Высота:</td>
+            <td class="featured__value">15 см</td>
+          </tr>
+        </table>
+        <img class="featured__image" src="http://placehold.it/260x315" alt="Предмет">
+        <h3 class="featured__price">990 руб.</h3>
+        <button class="button featured__button" type="button"></button>
+      </section>
+      <section class="about">
+        <h1 class="about__title">Коротко о нас</h1>
+        <span class="about__slogan">Экологически чистые материалы</span>
+        <span class="about__slogan">Скандинавский стиль по российской цене</span>
+        <span class="about__slogan">Увеличивает лайки на фотографиях</span>
+        <span class="about__slogan">Связано вручную с любовью и умилением</span>
+        <span class="about__slogan">Поддержка отечественного производителя</span>
+        <span class="about__slogan">Поставляется в подарочной упаковке</span>
+        <article class="comments">
+          <h1 class="comments__title">Отзывы</h1>
+          <blockquote class="comments__blockquote">
+            <p class="comments__text">
+              Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают
+              больше лайков!
+            </p>
+            <cite class="comments__name">Анастасия Красильникова</cite>
+            <span class="comments__instagramm">@misssssiskras</span>
+            <div class="comments__buttons">
+              <button class="comments__button comments__button--backward" type="button">Назад</button>
+              <button class="comments__button comments__button--forward" type="button">Назад</button>
+            </div>
+          </blockquote>
+        </article>
+      </section>
+      <section class="contacts">
+        <h1 class="contacts__title">Контакты</h1>
+        <p class="contacts__text">
+          <span class="contacts__filed">e-mail:</span>
+          <span class="contacts__value">info@mimimishkashop.ru</span>
+        </p>
+        <p class="contacts__text">
+          <span class="contacts__filed">адрес:</span>
+          <span class="contacts__value">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</span>
+        </p>
+        <iframe class="contacts__map" width="320" height="457"></iframe>
+        <button class="button contacts__button" type="button">Напишите нам</button>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <ul class="social-network">
+        <li class="social-network__icon"><a class="social-network__link social-network--instagramm" href="#">Instagramm</a></li>
+        <li class="social-network__icon"><a class="social-network__link social-network--facebook" href="#">Facebook</a></li>
+        <li class="social-network__icon"><a class="social-network__link social-network--twitter" href="#">Twitter</a></li>
+      </ul>
+      <section class="developer">
+        <a class="developer__link">Разработано <img class="developer__image" src="http://placehold.it/27x34"></a>
+      </section>
+    </footer>
+    <div class="modal-window">
+      <h1 class="modal-window__title">Добавить в корзину</h1>
+      <span class="modal-window__subtitle">Выберите размер:</span>
+      <div class="modal-window__radio-buttons">
+        <input class="modal-window__radio" name="radio-size" id="modal-window__radio-1" type="radio" value="S">
+        <label class="modla-window__label" for="modal-window__radio-1">S</label>
+        <input class="modal-window__radio" name="radio-size" id="modal-window__radio-2" type="radio" value="M">
+        <label class="modla-window__label" for="modal-window__radio-2">M</label>
+        <input class="modal-window__radio" name="radio-size" id="modal-window__radio-3" type="radio" value="L">
+        <label class="modla-window__label" for="modal-window__radio-3">L</label>
+      </div>
+      <button class="button modal-window__button" type="button">Добавить</button>
+    </div>
   </body>
 </html>
