@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Mishka</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
@@ -21,14 +22,11 @@
     </header>
     <main class="page-main">
       <header class="main-title">
-        <h1 class="main-title__heading">Каталог товаров</h1>
+        <h1 class="main-title__heading">Вязание на заказ</h1>
       </header>
-      <section class="form">
-        <p class="form__text">
-          Мы будем рады воплотить в жизнь ваши пожелания! Заполните
-          простую форму заказа и мы свяжемся с вами, чтобы уточнить
-          детали.
-        </p>
+      <form class="form" action="#" method="POST">
+        <span class="form__text">Мы будем рады воплотить в жизнь ваши пожелания!</span>
+        <span class="form__text">Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</span>
         <fieldset class="form__item">
           <legend class="form__title">Тип</legend>
           <input class="form__radio" type="radio" name="form-radio" value="Аксессуар для интерьера" id="form-type-1" checked>
@@ -74,7 +72,7 @@
         </fieldset>
         <span class="form__span">*Поля обязательны для заполнения</span>
         <button class="form__button" type="submit" name="from-button">Отправить заказ</button>
-      </section>
+      </form>
     </main>
     <footer class="page-footer">
       <ul class="social-network">
