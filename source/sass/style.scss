@@ -19,3 +19,20 @@
 @import "blocks/page-main.scss";
 @import "blocks/produce.scss";
 @import "blocks/social-network.scss";
+/*fonts import*/
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/opensans.woff") format("woff"),
+		 url("../fonts/opensans.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Open Sans Bold";
+	src: url("../fonts/opensansbold.woff") format("woff"),
+		 url("../fonts/opensansbold.woff2") format("woff2");
+}
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+}
