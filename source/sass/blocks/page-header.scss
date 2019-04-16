@@ -1,0 +1,16 @@
+.page-header {
+  position: relative;
+  width: $mobile-width;
+
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-header__logo {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+}

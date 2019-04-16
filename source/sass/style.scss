@@ -1,3 +1,7 @@
+/*variables import*/
+@import "variables.scss";
+/*mixins import*/
+@import "mixins.scss";
 /* blocks import*/
 @import "blocks/about.scss";
 @import "blocks/catalog.scss";
@@ -15,7 +19,3 @@
 @import "blocks/page-main.scss";
 @import "blocks/produce.scss";
 @import "blocks/social-network.scss";
-/*mixins import*/
-@import "mixins.scss";
-/*variables import*/
-@import "variables.scss";
