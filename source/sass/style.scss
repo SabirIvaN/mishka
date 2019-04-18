@@ -1,8 +1,5 @@
-/*variables import*/
 @import "variables.scss";
-/*mixins import*/
 @import "mixins.scss";
-/* blocks import*/
 @import "blocks/about.scss";
 @import "blocks/catalog.scss";
 @import "blocks/categories.scss";
@@ -19,7 +16,7 @@
 @import "blocks/page-main.scss";
 @import "blocks/produce.scss";
 @import "blocks/social-network.scss";
-/*fonts import*/
+
 @font-face {
 	font-family: "Open Sans";
 	src: url("../fonts/opensans.woff") format("woff"),
@@ -35,4 +32,9 @@
 body {
   font-size: 16px;
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+}
+
+.container {
+  width: 260px;
+  margin: 0 auto;
 }
