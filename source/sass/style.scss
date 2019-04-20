@@ -1,9 +1,11 @@
 @import "variables.scss";
 @import "mixins.scss";
+@import "global.scss";
 @import "blocks/about.scss";
 @import "blocks/catalog.scss";
 @import "blocks/categories.scss";
 @import "blocks/comments.scss";
+@import "blocks/contacts.scss";
 @import "blocks/developer.scss";
 @import "blocks/featured.scss";
 @import "blocks/form.scss";
@@ -11,30 +13,9 @@
 @import "blocks/main-nav.scss";
 @import "blocks/main-title.scss";
 @import "blocks/modal-window.scss";
+@import "blocks/overlay.scss";
 @import "blocks/page-footer.scss";
 @import "blocks/page-header.scss";
 @import "blocks/page-main.scss";
 @import "blocks/produce.scss";
 @import "blocks/social-network.scss";
-
-@font-face {
-	font-family: "Open Sans";
-	src: url("../fonts/opensans.woff") format("woff"),
-		 url("../fonts/opensans.woff2") format("woff2");
-}
-
-@font-face {
-	font-family: "Open Sans Bold";
-	src: url("../fonts/opensansbold.woff") format("woff"),
-		 url("../fonts/opensansbold.woff2") format("woff2");
-}
-
-body {
-  font-size: 16px;
-  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
-}
-
-.container {
-  width: 260px;
-  margin: 0 auto;
-}
