@@ -1,0 +1,57 @@
+.catalog__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  border: 1px solid #ededed;
+  margin-bottom: 28px;
+  padding-bottom: 27px;
+}
+
+.catalog__presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 10%;
+}
+
+.catalog__title {
+  font-family: "Open Sans Block", "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.catalog__description {
+  width: 205px;
+  display: block;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  color: #444444;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ececec;
+}
+
+.catalog__cost {
+  width: 100%;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog__price {
+  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.catalog__purchase {
+  font-size: 0;
+  width: 21px;
+  height: 20px;
+  background: #ffffff url("../../img/icon-cart.svg") no-repeat center center;
+  border: none;
+}

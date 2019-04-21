@@ -8,10 +8,10 @@
   <body>
     <header class="page-header">
       <a class="page-header__logo" href="#index">
-        <img class="page-header__logo-image" src="http://placehold.it/86x35" alt="Mishka">
+        <img class="page-header__logo-image" src="img/logo-mobile.svg" alt="Mishka">
       </a>
       <nav class="main-nav">
-        <button class="main-nav__button">Открыть меню</button>
+        <button class="main-nav__button main-nav__button--unactive">Открыть меню</button>
         <ul class="main-nav__list">
           <li class="main-nav__item"><a href="#" class="main-nav__link">Каталог товаров</a></li>
           <li class="main-nav__item"><a href="#" class="main-nav__link">Вязание на заказ</a></li>
@@ -21,10 +21,10 @@
       </nav>
     </header>
     <main class="page-main">
-      <header class="main-title">
-        <h1 class="main-title__heading">Вязание на заказ</h1>
+      <header class="main-header">
+        <h1 class="main-header__title">Вязание на заказ</h1>
       </header>
-      <form class="form" action="#" method="POST">
+      <form class="container form" action="#" method="POST">
         <span class="form__text">Мы будем рады воплотить в жизнь ваши пожелания!</span>
         <span class="form__text">Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</span>
         <fieldset class="form__item">
@@ -42,60 +42,64 @@
           <label class="form__label" for="form-color-2">Серый</label>
           <input class="form__checkbox" type="checkbox" name="form-checkbox" value="«Тиффани»" id="form-color-3">
           <label class="form__label" for="form-color-3">«Тиффани»</label>
-          <input class="form__chckbox" type="checkbox" name="form-checkbox" value="Черный" id="form-color-4">
+          <input class="form__checkbox" type="checkbox" name="form-checkbox" value="Черный" id="form-color-4">
           <label class="form__label" for="form-color-4">Черный</label>
           <input class="form__checkbox" type="checkbox" name="form-checkbox" value="Розовый" id="form-color-5">
           <label class="form__label" for="form-color-5">Розовый</label>
-          <input class="form__chckbox" type="checkbox" name="form-checkbox" value="Оранжевый" id="form-color-6">
+          <input class="form__checkbox" type="checkbox" name="form-checkbox" value="Оранжевый" id="form-color-6">
           <label class="form__label" for="form-color-6">Оранжевый</label>
         </fieldset>
         <fieldset class="form__item">
           <legend class="form__title">ФИО</legend>
           <label class="form__label" for="form-text-1">Имя:</label>
-          <input class="form__text" type="text" name="form-text" placeholder="Введите ваше имя*" id="form-text-1">
+          <input class="form__input-text" type="text" name="form-text" placeholder="Введите ваше имя*" id="form-text-1">
           <label class="form__label" for="form-text-2">Фамилия:</label>
-          <input class="form__text" type="text" name="form-text" placeholder="Укажите фамилию*" id="form-text-2">
+          <input class="form__input-text" type="text" name="form-text" placeholder="Укажите фамилию*" id="form-text-2">
           <label class="form__label" for="form-text-3">Отчество:</label>
-          <input class="form__text" type="text" name="form-text" placeholder="Отчество, если желаете" id="form-text-3">
+          <input class="form__input-text" type="text" name="form-text" placeholder="Отчество, если желаете" id="form-text-3">
         </fieldset>
         <fieldset class="form__item">
           <legend class="form__title"><label for="form-phone">Тел</label></legend>
-          <input class="form__text" type="tel" name="form-phone" placeholder="+7 ХХХ ХХХ ХХ ХХ*" id="form-phone">
+          <input class="form__input-text" type="tel" name="form-phone" placeholder="+7 ХХХ ХХХ ХХ ХХ*" id="form-phone">
         </fieldset>
         <fieldset class="form__item">
           <legend class="form__title"><label for="form-mail">E-mail</label></legend>
-          <input class="form__text" type="mail" name="form-mail" placeholder="Ваш Email*" id="form-mail">
+          <input class="form__input-text" type="mail" name="form-mail" placeholder="Ваш Email*" id="form-mail">
         </fieldset>
         <fieldset class="form__item">
           <legend class="form__title"><label for="form-textarea">Доп</label></legend>
-          <textarea class="form__textarea" name="form-textarea" rows="8" cols="80" placeholder="Опишите все ваши пожелания к заказу" id="form-textarea"></textarea>
+          <textarea class="form__textarea" name="form-textarea" rows="5" cols="50" placeholder="Опишите все ваши пожелания к заказу" id="form-textarea"></textarea>
         </fieldset>
         <span class="form__span">*Поля обязательны для заполнения</span>
-        <button class="form__button" type="submit" name="from-button">Отправить заказ</button>
+        <button class="button form__button" type="submit" name="from-button">Отправить заказ</button>
       </form>
     </main>
     <footer class="page-footer">
-      <ul class="social-network">
-        <li class="social-network__icon"><a class="social-network__link social-network--instagramm" href="#">Instagramm</a></li>
-        <li class="social-network__icon"><a class="social-network__link social-network--facebook" href="#">Facebook</a></li>
-        <li class="social-network__icon"><a class="social-network__link social-network--twitter" href="#">Twitter</a></li>
-      </ul>
-      <section class="developer">
-        <a class="developer__link">Разработано <img class="developer__image" src="http://placehold.it/27x34"></a>
-      </section>
-    </footer>
-    <div class="modal-window">
-      <h1 class="modal-window__title">Добавить в корзину</h1>
-      <span class="modal-window__subtitle">Выберите размер:</span>
-      <div class="modal-window__radio-buttons">
-        <input class="modal-window__radio" name="radio-size" id="modal-window__radio-1" type="radio" value="S">
-        <label class="modla-window__label" for="modal-window__radio-1">S</label>
-        <input class="modal-window__radio" name="radio-size" id="modal-window__radio-2" type="radio" value="M">
-        <label class="modla-window__label" for="modal-window__radio-2">M</label>
-        <input class="modal-window__radio" name="radio-size" id="modal-window__radio-3" type="radio" value="L">
-        <label class="modla-window__label" for="modal-window__radio-3">L</label>
+      <div class="container page-footer__container">
+        <ul class="social-network">
+          <li class="social-network__icon"><a class="social-network__link social-network__link--instagramm" href="#">Instagramm</a></li>
+          <li class="social-network__icon"><a class="social-network__link social-network__link--facebook" href="#">Facebook</a></li>
+          <li class="social-network__icon"><a class="social-network__link social-network__link--twitter" href="#">Twitter</a></li>
+        </ul>
+        <section class="developer">
+          <a class="developer__link">Разработано <img class="developer__image" src="img/logo-htmlacademy.svg"></a>
+        </section>
       </div>
-      <button class="button modal-window__button" type="button">Добавить</button>
+    </footer>
+    <div class="overlay">
+      <div class="modal-window">
+        <h1 class="modal-window__title">Добавить в корзину</h1>
+        <span class="modal-window__subtitle">Выберите размер:</span>
+        <form class="modal-window__radio-buttons" action="#" method="POST">
+          <input class="modal-window__radio" name="radio-size" id="modal-window__radio-1" type="radio" value="S">
+          <label class="modal-window__label modal-window__label--active" for="modal-window__radio-1">S</label>
+          <input class="modal-window__radio" name="radio-size" id="modal-window__radio-2" type="radio" value="M">
+          <label class="modal-window__label" for="modal-window__radio-2">M</label>
+          <input class="modal-window__radio" name="radio-size" id="modal-window__radio-3" type="radio" value="L">
+          <label class="modal-window__label" for="modal-window__radio-3">L</label>
+          <button class="button modal-window__button" type="button">Добавить</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>

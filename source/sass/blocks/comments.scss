@@ -1,0 +1,55 @@
+.comments__title {
+  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.comments__blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.comments__text {
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+}
+
+.comments__name {
+  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-style: normal;
+}
+
+.comments__instagramm {
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-style: normal;
+}
+
+.comments__buttons {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid #ececec;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.comments__button {
+  border: none;
+  font-size: 0;
+  width: 50px;
+  height: 28px;
+  &--backward {
+    background: #ffffff url("../../img/icon-left-arrow.svg") no-repeat center center;
+  }
+  &--forward {
+    background: #ffffff url("../../img/icon-right-arrow.svg") no-repeat center center;
+  }
+}

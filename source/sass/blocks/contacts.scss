@@ -1,0 +1,37 @@
+.contacts {
+  margin-bottom: 20px;
+}
+
+.contacts__title {
+  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.contacts__table {
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  color: #444444;
+}
+
+.contacts__filed {
+  width: 20%;
+  vertical-align: top;
+}
+
+.contacts__value {
+  width: 80%;
+  padding: 0 0 0 30px;
+}
+
+.contacts__map {
+  margin: 0 0 20px -10px;
+  background: #dfdfdf url("../../img/map-mobile@1x.jpg") no-repeat center center;
+  border: none;
+}
+
+.contacts__button {
+  width: 114%;
+  padding: 15px 50px;
+}
