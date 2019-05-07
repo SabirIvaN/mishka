@@ -17,3 +17,9 @@
 .developer__image {
   margin-left: 30px;
 }
+
+@media (min-width: 768px) {
+  .developer {
+    width: 200px;
+  }
+}

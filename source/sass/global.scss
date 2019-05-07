@@ -16,8 +16,14 @@ body {
 }
 
 .container {
-  width: 260px;
+  width: 320px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
 }
 
 .button {
@@ -25,7 +31,7 @@ body {
   text-transform: uppercase;
   font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
   color: #444444;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
   padding: 14px 33%;
 }

@@ -66,3 +66,33 @@
   background: #63d1bb;
   color: #ffffff;
 }
+
+@media (min-width: 768px) {
+  .modal-window {
+    width: 567px;
+    height: 300px;
+  }
+
+  .modal-window__title {
+    width: 100%;
+  }
+
+  .modal-window__subtitle {
+    margin-bottom: -30px;
+  }
+
+  .modal-window__radio-buttons {
+    width: 60%;
+    padding: 50px 50px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .modal-window__label {
+    padding: 18px 14%;
+  }
+
+  .modal-window__button {
+    width: 100%;
+  }
+}

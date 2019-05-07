@@ -3,10 +3,21 @@
   padding: 0 0 25px 0;
   margin: auto auto 15px auto;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   width: 56%;
-  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+}
+
+.social-network::before {
+  content: "";
+  display: block;
+  width: 200%;
+  height: 1px;
+  background: #e5e5e5;
+  position: absolute;
+  bottom: 3px;
+  left: -60px;
 }
 
 .social-network__link {
@@ -16,16 +27,27 @@
   &--instagramm {
     width: 23px;
     height: 21px;
-    background-image: url("../../img/icon-insta.svg");
+    background-image: url("../img/icon-insta.svg");
   }
   &--facebook {
     width: 15px;
     height: 33px;
-    background-image: url("../../img/icon-fb.svg");
+    background-image: url("../img/icon-fb.svg");
   }
   &--twitter {
     width: 27px;
     height: 22px;
-    background-image: url("../../img/icon-twitter.svg");
+    background-image: url("../img/icon-twitter.svg");
+  }
+}
+
+@media (min-width: 768px) {
+  .social-network {
+    padding: 5px 0 0 0;
+    width: 100px;
+    margin: 0;
+  }
+  .social-network::before {
+    display: none;
   }
 }

@@ -3,10 +3,25 @@
   background-color: #f1f1f1;
 }
 
+.page-footer__logo {
+  display: none;
+}
+
 .page-footer__container {
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .page-footer__logo {
+    display: block;
+  }
+
+  .page-footer__container {
+    justify-content: space-between;
+  }
 }

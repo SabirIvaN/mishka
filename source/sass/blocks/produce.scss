@@ -1,7 +1,11 @@
 .produce {
-  padding-top: 50px;
+  width: 260px;
+  margin: 0 auto;
+  padding-top: 5px;
   margin-bottom: 60px;
   border: 1px solid #ededed;
+  display: flex;
+  flex-direction: column;
 }
 
 .produce__title {
@@ -9,7 +13,33 @@
   font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  padding-left: 80px;
+  padding-left: 90px;
+  position: relative;
+  &::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 22px;
+    background: url("../img/icon-video.svg") no-repeat center center;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+  }
+}
+
+.produce__video-block {
+  position: relative;
+  &::before {
+    content: "";
+    display: block;
+    width: 101px;
+    height: 77px;
+    position: absolute;
+    background: url("../img/icon-play.svg") no-repeat center center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .produce__text {
@@ -20,6 +50,29 @@
 }
 
 .produce__button {
-  padding: 10px 30px;
+  padding: 10px 20px;
   margin: 20px 30px;
+}
+
+@media (min-width: 768px) {
+  .produce {
+    width: 668px;
+    padding: 0;
+  }
+
+  .produce__title {
+    order: 2;
+  }
+
+  .produce__video-block {
+    order: 1;
+  }
+
+  .produce__text {
+    order: 3;
+  }
+
+  .produce__button {
+    order: 4;
+  }
 }

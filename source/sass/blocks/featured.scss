@@ -1,3 +1,14 @@
+.featured {
+  background: url("../img/bg-zigzag-line.svg") repeat-x center bottom;
+  background-size: 340px;
+  padding: 0 0 20px 0;
+}
+
+.featured__container {
+  width: 260px;
+  margin: 0 auto;
+}
+
 .featured__title {
   font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
   font-size: 24px;
@@ -6,8 +17,8 @@
 
 .featured__subtitle {
   font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 17px;
+  line-height: 17px;
   color: #63d1bb;
   text-transform: uppercase;
 }
@@ -16,8 +27,9 @@
   margin: 20px 0;
   padding: 0;
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 24px;
+  color: #444444;
 }
 
 .featured__item {
@@ -25,6 +37,16 @@
   font-size: 14px;
   line-height: 24px;
   color: #444444;
+  position: relative;
+  &::before {
+    content: "";
+    display: block;
+    width: 260px;
+    height: 1px;
+    background: #ececec;
+    position: absolute;
+    margin-top: 25px;
+  }
 }
 
 .featured__value {
@@ -44,4 +66,70 @@
   text-align: center;
   color: #444444;
   margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .featured {
+    background-size: 780px;
+  }
+
+  .featured__container {
+    width: 668px;
+    position: relative;
+  }
+
+  .featured__name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .featured__title {
+    font-size: 43px;
+  }
+
+  .featured__subtitle {
+    width: 100px;
+    text-align: center;
+  }
+
+  .featured__description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .featured__text {
+    width: 300px;
+    font-size: 17px;
+  }
+
+  .featured__item {
+    &::before {
+      margin-top: 35px;
+    }
+  }
+
+  .featured__field {
+    padding: 5px 0;
+  }
+
+  .featured_value {
+    padding: 5px 0;
+  }
+
+  .featured__button {
+    padding: 2% 15%;
+    position: absolute;
+    bottom: 22px;
+  }
+
+  .featured__price {
+    position: absolute;
+    bottom: 45px;
+    font-size: 20px;
+    bottom: 80px;
+    left: 70px;
+  }
 }

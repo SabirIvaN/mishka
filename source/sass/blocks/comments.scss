@@ -1,3 +1,8 @@
+.comments__container {
+  width: 260px;
+  margin: 0 auto;
+}
+
 .comments__title {
   font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
   font-size: 24px;
@@ -25,7 +30,7 @@
 
 .comments__instagramm {
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 30px;
   font-style: normal;
 }
@@ -47,9 +52,59 @@
   width: 50px;
   height: 28px;
   &--backward {
-    background: #ffffff url("../../img/icon-left-arrow.svg") no-repeat center center;
+    background: #ffffff url("../img/icon-left-arrow.svg") no-repeat center center;
   }
   &--forward {
-    background: #ffffff url("../../img/icon-right-arrow.svg") no-repeat center center;
+    background: #ffffff url("../img/icon-right-arrow.svg") no-repeat center center;
+  }
+}
+
+.comments__write-button {
+  padding: 14px 32%;
+}
+
+@media (min-width: 768px) {
+  .comments {
+    position: relative;
+    background:  url("../img/review@1x.jpg") no-repeat left center;
+    padding: 20px 0;
+  }
+
+  .comments__container {
+    width: 668px;
+  }
+
+  .comments__title {
+    font-size: 43px;
+    line-height: 50px;
+    margin-bottom: 100px;
+  }
+
+  .comments__text {
+    font-size: 17px;
+    margin-bottom: 100px;
+  }
+
+  .comments__name {
+    font-size: 17px;
+  }
+
+  .comments__instagramm {
+    font-size: 17px;
+  }
+
+  .comments__buttons {
+    width: 167px;
+    border: none;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+  }
+
+  .comments__write-button {
+    padding: 14px 10%;
+    position: absolute;
+    top: 40px;
+    right: 0;
   }
 }
