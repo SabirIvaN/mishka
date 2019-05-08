@@ -133,3 +133,43 @@
     left: 70px;
   }
 }
+
+@media (min-width: 1150px) {
+  .featured {
+    width: 1150px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .featured__container {
+    width: 875px;
+    position: relative;
+    margin: 0;
+  }
+
+  .featured__name {
+    position: absolute;
+    left: -170px;
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .featured__title {
+    order: 2;
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .featured__subtitle {
+    order: 1;
+  }
+
+  .featured__settings {
+    margin-top: 100px
+  }
+
+  .featured__button {
+    padding: 2% 12%;
+  }
+}

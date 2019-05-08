@@ -105,3 +105,40 @@
     margin-left: 35%;
   }
 }
+
+@media (min-width: 1150px) {
+  .contacts {
+    width: 875px;
+    display: flex;
+    position: relative;
+    margin-left: 200px;
+  }
+
+  .contacts__title {
+    font-size: 53px;
+    line-height: 57px;
+    margin-bottom: 50px;
+    &::after {
+      top: -20px;
+      left: -120px;
+    }
+  }
+
+  .contacts__container {
+    width: 50%;
+  }
+
+  .contacts__tbody {
+    flex-direction: column;
+  }
+
+  .contacts__map {
+    background: url("../img/map-desktop@1x.jpg") no-repeat center center;
+  }
+
+  .contacts__button {
+    position: absolute;
+    bottom: 50px;
+    left: -300px;
+  }
+}

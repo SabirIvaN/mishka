@@ -73,6 +73,7 @@
 @media (min-width: 768px) {
   .about {
     background-size: 800px;
+    margin-bottom: 50px;
   }
   .about__container {
     width: 668px;
@@ -117,5 +118,26 @@
     &:nth-child(6) {
       order: 6;
     }
+  }
+}
+
+@media (min-width: 1150px) {
+  .about {
+    background-size: 1150px;
+  }
+
+  .about__container {
+    width: 800px;
+    margin: 0 0 0 270px;
+  }
+
+  .about__title {
+    font-size: 53px;
+    line-height: 57px;
+    margin-bottom: 50px;
+  }
+
+  .about__item {
+    margin-bottom: 50px;
   }
 }

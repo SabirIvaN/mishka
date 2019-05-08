@@ -26,6 +26,12 @@ body {
   }
 }
 
+@media (min-width: 1150px) {
+  .container {
+    width: 1150px;
+  }
+}
+
 .button {
   border: 2px solid #444444;
   text-transform: uppercase;

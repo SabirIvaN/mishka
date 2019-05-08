@@ -14,13 +14,11 @@
 }
 
 .page-header__logo {
-  margin-top: 25px;
-  margin-bottom: 15px;
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  .page-header {
+  .page-header__container {
     width: 768px;
   }
   .page-header__container {
@@ -33,5 +31,22 @@
   .page-header__logo {
     text-align: left;
     padding-right: 180px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .page-header__container {
+    margin: 0;
+    padding:0;
+    width: 1050px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .page-header__logo {
+    margin: 0;
+    padding: 0;
   }
 }

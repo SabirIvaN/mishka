@@ -1,5 +1,5 @@
 .page-footer {
-  padding: 20px 50px;
+  padding: 20px 20px;
   background-color: #f1f1f1;
 }
 
@@ -23,5 +23,11 @@
 
   .page-footer__container {
     justify-content: space-between;
+  }
+}
+
+@media (min-width: 1150px) {
+  .page-footer {
+    padding: 10px 20px;
   }
 }

@@ -77,3 +77,13 @@
     margin-right: 5%;
   }
 }
+
+@media (min-width: 1150px) {
+  .categories__link {
+    margin-left: -50px;
+  }
+
+  .categories::after {
+    width: 1150px;
+  }
+}

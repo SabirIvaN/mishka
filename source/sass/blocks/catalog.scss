@@ -103,3 +103,34 @@
     font-size: 17px;
   }
 }
+
+@media (min-width: 1150px) {
+  .catalog {
+    width: 1050px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .catalog__item {
+    width: 315px;
+    display: flex;
+  }
+
+  .catalog__image {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .catalog__presentation {
+    margin-bottom: 50%;
+  }
+
+  .catalog__cost {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+}

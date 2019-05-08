@@ -108,3 +108,27 @@
     right: 0;
   }
 }
+
+@media (min-width: 1150px) {
+  .comments {
+    padding: 50px 0;
+  }
+
+  .comments__container {
+    width: 875px;
+    margin: 0 0 100px 200px;
+  }
+
+  .comments__title {
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .comments__buttons {
+    bottom:  10px;
+  }
+
+  .comments__write-button {
+    padding: 14px 5%;
+  }
+}

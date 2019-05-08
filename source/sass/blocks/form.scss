@@ -171,6 +171,7 @@
   .form__text {
     font-size: 17px;
     line-height: 30px;
+    margin-left: -10px;
   }
 
   .form__title {
@@ -225,5 +226,106 @@
 
   .form__span {
     order: 2;
+  }
+}
+
+@media (min-width: 1150px) {
+  .form {
+    width: 1050px;
+  }
+
+  .form__text {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .form__item {
+    justify-content: flex-start;
+  }
+
+  .form__title {
+    width: 175px;
+    text-align: center;
+    &--phone::before {
+      right: -695px;
+    }
+    &--email::before {
+      right: -695px;
+    }
+  }
+
+  .form__content {
+    &--type {
+      width: 300px;
+    }
+    &--color {
+      width: 875px;
+    }
+    &--full-name {
+      width: 625px;
+    }
+    &--email {
+      width: 700px;
+    }
+    &--phone {
+      width: 700px;
+    }
+    &--textarea {
+      width: 700px;
+    }
+  }
+
+  .form__label {
+    &--type {
+      width: 300px;
+    }
+
+    &--color {
+      width: 100px;
+      margin-right: 80px;
+    }
+    &--input {
+      margin-top: 20px;
+    }
+    &--name {
+      margin-right: -20px;
+    }
+  }
+
+  .form__element {
+    width: 700px;
+    display: flex;
+  }
+
+  .form__input-text {
+    width: 570px;
+    margin-left: -20px;
+    &--name {
+      width: 700px;
+    }
+    &--surname {
+      width: 650px;
+    }
+    &--patron {
+      width: 650px;
+    }
+    &--phone {
+      width: 700px;
+      margin-left: 0;
+    }
+    &--mail {
+      width: 700px;
+      margin-left: 0;
+    }
+  }
+
+  .form__textarea {
+    width: inherit;
+    padding: 20px;
+  }
+
+  .form__footer {
+    width: 685px;
+    margin-left: 175px;
   }
 }
