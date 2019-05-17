@@ -15,6 +15,9 @@
 
 .page-header__logo {
   text-align: center;
+  position: relative;
+  top: -3px;
+  right: 1px;
 }
 
 @media (min-width: 768px) {
@@ -30,7 +33,7 @@
   }
   .page-header__logo {
     text-align: left;
-    padding-right: 180px;
+    margin-right: 200px;
   }
 }
 
@@ -46,7 +49,10 @@
   }
 
   .page-header__logo {
-    margin: 0;
+    position: relative;
+    top: 2px;
+    left: 1px;
+    margin: 0 0 0 0;
     padding: 0;
   }
 }

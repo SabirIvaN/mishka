@@ -49,24 +49,26 @@
               <input class="form__radio" type="radio" name="form-radio" value="Аксессуар для интерьера" id="form-type-1" checked>
               <label class="form__label form__label--type form__label--checked" for="form-type-1">Аксессуар для интерьера</label>
               <input class="form__radio" type="radio" name="form-radio" value="Детская игрушка" id="form-type-2">
-              <label class="form__label form__label--type form__label--checked" for="form-type-2">Аксессуар для интерьера</label>
+              <label class="form__label form__label--type form__label--checked" for="form-type-2">Детская игрушка</label>
             </div>
           </div>
-          <div class="form__item">
-            <h2 class="form__title form__title--color">Цвет</h2>
-            <div class="form__content form__content--color">
-              <input class="form__checkbox" type="checkbox" name="form-checkbox" value="Белый" id="form-color-1" checked>
-              <label class="form__label form__label--color form__label--checked" for="form-color-1">Белый</label>
-              <input class="form__checkbox" type="checkbox" name="form-checkbox" value="Серый" id="form-color-2" checked>
-              <label class="form__label form__label--color form__label--checked" for="form-color-2">Серый</label>
-              <input class="form__checkbox" type="checkbox" name="form-checkbox" value="«Тиффани»" id="form-color-3">
-              <label class="form__label form__label--color form__label--checked" for="form-color-3">«Тиффани»</label>
-              <input class="form__checkbox" type="checkbox" name="form-checkbox" value="Черный" id="form-color-4">
-              <label class="form__label form__label--color form__label--checked" for="form-color-4">Черный</label>
-              <input class="form__checkbox" type="checkbox" name="form-checkbox" value="Розовый" id="form-color-5">
-              <label class="form__label form__label--color form__label--checked" for="form-color-5">Розовый</label>
-              <input class="form__checkbox" type="checkbox" name="form-checkbox" value="Оранжевый" id="form-color-6">
-              <label class="form__label form__label--color form__label--checked" for="form-color-6">Оранжевый</label>
+          <div class="form__container form__container--color">
+            <div class="form__item">
+              <h2 class="form__title form__title--color">Цвет</h2>
+              <div class="form__content form__content--color">
+                <input class="form__checkbox" type="checkbox" name="form-checkbox" value="Белый" id="form-color-1" checked>
+                <label class="form__label form__label--color form__label--checked" for="form-color-1">Белый</label>
+                <input class="form__checkbox" type="checkbox" name="form-checkbox" value="Серый" id="form-color-2" checked>
+                <label class="form__label form__label--color form__label--checked" for="form-color-2">Серый</label>
+                <input class="form__checkbox" type="checkbox" name="form-checkbox" value="«Тиффани»" id="form-color-3">
+                <label class="form__label form__label--color form__label--checked" for="form-color-3">«Тиффани»</label>
+                <input class="form__checkbox" type="checkbox" name="form-checkbox" value="Черный" id="form-color-4">
+                <label class="form__label form__label--color form__label--checked" for="form-color-4">Черный</label>
+                <input class="form__checkbox" type="checkbox" name="form-checkbox" value="Розовый" id="form-color-5">
+                <label class="form__label form__label--color form__label--checked" for="form-color-5">Розовый</label>
+                <input class="form__checkbox" type="checkbox" name="form-checkbox" value="Оранжевый" id="form-color-6">
+                <label class="form__label form__label--color form__label--checked" for="form-color-6">Оранжевый</label>
+              </div>
             </div>
           </div>
           <div class="form__item">
@@ -86,16 +88,18 @@
               </div>
             </div>
           </div>
-          <div class="form__item">
-            <h2 class="form__title form__title--phone form__title--input"><label for="form-phone">Тел</label></h2>
-            <div class="form__content form__content--email">
-              <input class="form__input-text form__input-text--phone" type="tel" name="form-phone" placeholder="+7 ХХХ ХХХ ХХ ХХ*" id="form-phone">
+          <div class="form__container form__container--phone-and-mail">
+            <div class="form__item">
+              <h2 class="form__title form__title--phone form__title--input"><label for="form-phone">Тел</label></h2>
+              <div class="form__content form__content--email">
+                <input class="form__input-text form__input-text--phone" type="tel" name="form-phone" placeholder="+7 ХХХ ХХХ ХХ ХХ*" id="form-phone">
+              </div>
             </div>
-          </div>
-          <div class="form__item">
-            <h2 class="form__title form__title--email form__title--input"><label for="form-mail">E-mail</label></h2>
-            <div class="form__content form__content--email">
-              <input class="form__input-text form__input-text--mail" type="mail" name="form-mail" placeholder="Ваш Email*" id="form-mail">
+            <div class="form__item">
+              <h2 class="form__title form__title--email form__title--input"><label for="form-mail">E-mail</label></h2>
+              <div class="form__content form__content--email">
+                <input class="form__input-text form__input-text--mail" type="mail" name="form-mail" placeholder="Ваш Email*" id="form-mail">
+              </div>
             </div>
           </div>
           <div class="form__item">
@@ -107,37 +111,37 @@
           <div class="form__footer">
             <span class="form__span">*Поля обязательны для заполнения</span>
             <button class="button form__button" type="submit" name="from-button">Отправить заказ</button>
+          </div>
         </form>
-    </div>
-    </main>
-    <footer class="page-footer">
-      <div class="page-footer__container">
-        <img class="page-footer__logo" src="img/logo-footer.svg" alt="Mishka">
-        <ul class="social-network">
-          <li class="social-network__icon"><a class="social-network__link social-network__link--instagramm" href="#">Instagramm</a></li>
-          <li class="social-network__icon"><a class="social-network__link social-network__link--facebook" href="#">Facebook</a></li>
-          <li class="social-network__icon"><a class="social-network__link social-network__link--twitter" href="#">Twitter</a></li>
-        </ul>
-        <section class="developer">
-          <a class="developer__link">Разработано <img class="developer__image" src="img/logo-htmlacademy.svg"></a>
-        </section>
+      </main>
+      <footer class="page-footer">
+        <div class="page-footer__container">
+          <img class="page-footer__logo" src="img/logo-footer.svg" alt="Mishka">
+          <ul class="social-network">
+            <li class="social-network__icon"><a class="social-network__link social-network__link--instagramm" href="#">Instagramm</a></li>
+            <li class="social-network__icon"><a class="social-network__link social-network__link--facebook" href="#">Facebook</a></li>
+            <li class="social-network__icon"><a class="social-network__link social-network__link--twitter" href="#">Twitter</a></li>
+          </ul>
+          <section class="developer">
+            <a class="developer__link">Разработано <img class="developer__image" src="img/logo-htmlacademy.svg"></a>
+          </section>
+        </div>
+      </footer>
+      <div class="overlay">
+        <div class="modal-window">
+          <h1 class="modal-window__title">Добавить в корзину</h1>
+          <span class="modal-window__subtitle">Выберите размер:</span>
+          <form class="modal-window__radio-buttons" action="#" method="POST">
+            <input class="modal-window__radio" name="radio-size" id="modal-window__radio-1" type="radio" value="S">
+            <label class="modal-window__label modal-window__label--active" for="modal-window__radio-1">S</label>
+            <input class="modal-window__radio" name="radio-size" id="modal-window__radio-2" type="radio" value="M">
+            <label class="modal-window__label" for="modal-window__radio-2">M</label>
+            <input class="modal-window__radio" name="radio-size" id="modal-window__radio-3" type="radio" value="L">
+            <label class="modal-window__label" for="modal-window__radio-3">L</label>
+            <button class="button modal-window__button" type="button">Добавить</button>
+          </form>
+        </div>
       </div>
-    </footer>
-    <div class="overlay">
-      <div class="modal-window">
-        <h1 class="modal-window__title">Добавить в корзину</h1>
-        <span class="modal-window__subtitle">Выберите размер:</span>
-        <form class="modal-window__radio-buttons" action="#" method="POST">
-          <input class="modal-window__radio" name="radio-size" id="modal-window__radio-1" type="radio" value="S">
-          <label class="modal-window__label modal-window__label--active" for="modal-window__radio-1">S</label>
-          <input class="modal-window__radio" name="radio-size" id="modal-window__radio-2" type="radio" value="M">
-          <label class="modal-window__label" for="modal-window__radio-2">M</label>
-          <input class="modal-window__radio" name="radio-size" id="modal-window__radio-3" type="radio" value="L">
-          <label class="modal-window__label" for="modal-window__radio-3">L</label>
-          <button class="button modal-window__button" type="button">Добавить</button>
-        </form>
-      </div>
-    </div>
     </div>
   </body>
 </html>

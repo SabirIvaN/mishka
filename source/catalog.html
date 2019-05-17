@@ -37,7 +37,7 @@
           </nav>
         </div>
       </header>
-      <main class="page-main">
+      <main class="page-main page-main--catalog">
         <header class="main-header">
           <h1 class="main-header__title">Каталог товаров</h1>
         </header>
@@ -67,8 +67,8 @@
             </picture>
             <div class="catalog__content">
               <div class="catalog__presentation">
-                <h1 class="catalog__title">Корзина для белья</h1>
-                <span class="catalog__description">Диаметр 15 см, высота 10 см</span>
+                <h1 class="catalog__title catalog__title--cart">Корзинка для белья</h1>
+                <span class="catalog__description catalog__description--two">Диаметр 15 см, высота 10 см</span>
               </div>
               <div class="catalog__cost">
                 <span class="catalog__price">690 руб.</span>
@@ -84,7 +84,7 @@
             </picture>
             <div class="catalog__content">
               <div class="catalog__presentation">
-                <h1 class="catalog__title">Большая корзина для игрушек</h1>
+                <h1 class="catalog__title">Большая корзина <br> для игрушек</h1>
                 <span class="catalog__description">Диаметр 30 см, высота 30 см</span>
               </div>
               <div class="catalog__cost">
@@ -100,7 +100,7 @@
           </div>
           <div class="produce__block">
             <picture class="produce__video-block">
-              <source media="(min-width: 1150px)" src="img/video-desktop@1x.jpg">
+              <source media="(min-width: 1150px)" srcset="img/video-desktop@1x.jpg">
               <source media="(min-width: 768px)" srcset="img/video-tablet@1x.jpg">
               <img src="img/video-mobile@1x.jpg">
             </picture>
@@ -113,7 +113,7 @@
           </div>
         </section>
       </main>
-      <footer class="page-footer">
+      <footer class="page-footer page-footer--catalog">
         <div class="page-footer__container">
           <img class="page-footer__logo" src="img/logo-footer.svg" alt="Mishka">
           <ul class="social-network">
