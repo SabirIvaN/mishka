@@ -37,7 +37,7 @@
 }
 
 .featured__table {
-  margin-bottom: 16  px;
+  margin-bottom: 16px;
 }
 
 .featured__item {
@@ -101,6 +101,7 @@
 @media (min-width: 768px) {
   .featured {
     background-size: 780px;
+    background-position: 10px bottom;
     margin-bottom: 48px;
   }
 
@@ -184,7 +185,7 @@
     margin: 0 0 57px -50px;
     background-size: 1050px;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: center bottom;
   }
 
   .featured__container {
