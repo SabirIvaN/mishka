@@ -1,0 +1,58 @@
+.main-header {
+  padding: 71.3px 0 76px 0;
+  margin-bottom: 30px;
+  background: #f1f1f1;
+}
+
+.main-header__title {
+  width: 250px;
+  margin: 0 auto;
+  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-size: 27px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 768px) {
+  .main-header {
+    padding: 94px 0 88px 0;
+    position: relative;
+    margin-bottom: 71px;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 768px;
+      height: 100px;
+      background: url("../img/bg-zigzag-fill.svg") repeat-x;
+      background-size: 768px;
+      bottom: -80px;;
+    }
+  }
+
+  .main-header__title {
+    width: 100%;
+    text-align: center;
+    font-size: 43px;
+    line-height: 50px;
+    letter-spacing: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-header {
+    padding: 92px 0 105px 0;
+    margin-bottom: 126px;
+    &::after {
+      width: 1150px;
+      background-size: 1150px;
+    }
+  }
+
+  .main-header__title {
+    font-size: 53px;
+    line-height: 57px;
+  }
+}

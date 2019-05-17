@@ -1,0 +1,170 @@
+.comments {
+  margin-top: -28px;
+}
+
+.comments__container {
+  width: 260px;
+  margin: 0 auto;
+}
+
+.comments__title {
+  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.comments__blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.comments__text {
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  color: #444444;
+  margin-bottom: 24px;
+}
+
+.comments__name {
+  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-style: normal;
+}
+
+.comments__instagramm {
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-style: normal;
+}
+
+.comments__buttons {
+  margin: 30px 0 37px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid #ececec;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.comments__button {
+  border: none;
+  font-size: 0;
+  width: 50px;
+  height: 28px;
+  &--backward {
+    background: #ffffff url("../img/icon-left-arrow.svg") no-repeat center center;
+  }
+  &--forward {
+    background: #ffffff url("../img/icon-right-arrow.svg") no-repeat center center;
+  }
+}
+
+.comments__write-button {
+  padding: 13px 31%;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .comments {
+    position: relative;
+    background:  url("../img/review@1x.jpg") no-repeat left center;
+    margin: 31px 0 43px 0;
+    padding: 20px 0;
+  }
+
+  .comments__container {
+    width: 668px;
+  }
+
+  .comments__title {
+    font-size: 43px;
+    line-height: 50px;
+    margin: 81px 0 0 -5px;
+  }
+
+  .comments__text {
+    font-size: 17px;
+    line-height: 30px;
+    margin: 50px 0 55px 0;
+  }
+
+  .comments__autor {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .comments__name {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+
+  .comments__instagramm {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .comments__buttons {
+    width: 173px;
+    border: none;
+    position: absolute;
+    bottom: 38px;
+    right: 51px;
+  }
+
+  .comments__write-button {
+    padding: 12px 5%;
+    position: absolute;
+    top: 103px;
+    right: 50px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .comments {
+    padding: 50px 0;
+    margin: -7px 0 0 96px;
+  }
+
+  .comments__container {
+    width: 875px;
+    margin: 0 0 100px 200px;
+  }
+
+  .comments__title {
+    font-size: 53px;
+    line-height: 57px;
+    position: relative;
+    top: 7px;
+    left: -23px;
+  }
+
+  .comments__text {
+    width: 770px;
+    position: relative;
+    top: 6px;
+    left: -24px;
+  }
+
+  .comments__autor {
+    position: relative;
+    top: -10px;
+    left: -25px;
+  }
+
+  .comments__buttons {
+    bottom: 130px;
+  }
+
+  .comments__write-button {
+    top: 147px;
+    padding: 12px 3.45%;
+  }
+}

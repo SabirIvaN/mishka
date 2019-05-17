@@ -1,0 +1,128 @@
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 0 27px 0;
+  padding: 0;
+  position: relative;
+}
+
+.categories__item {
+  position: relative;
+  display: flex;
+  width: 80%;
+  padding: 25px 10% 35px 10%;
+  margin-top: -4px;
+  &--light {
+    background: #63d1bb;
+  }
+  &--dark {
+    background: #46c1ae;
+  }
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+  &--light::after {
+    background: url("../img/icon-interior.svg") no-repeat center center;
+    width: 40px;
+    height: 62px;
+    top: 23px;
+    right: 38px;
+  }
+  &--dark::after {
+    background: url("../img/icon-toy.svg") no-repeat center center;
+    width: 60px;
+    height: 60px;
+    top: 20px;
+    right: 28px;
+  }
+  &:nth-child(2) {
+    padding: 25px 10% 30px 10%;
+  }
+}
+
+.categories__link {
+  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-size: 19px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  width: 150px;
+  margin-left: -5px;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 768px) {
+  .categories {
+    margin: -3px auto 32px auto;
+    background: #f8f8f8;
+    position: relative;
+    &::after {
+      content: "";
+      display: block;
+      width: 768px;
+      height: 50px;
+      position: absolute;
+      background: url("../img/bg-zigzag-fill.svg") repeat-x;
+      background-size: 768px;
+      bottom: -28px;
+    }
+  }
+
+  .categories__item {
+    width: 25%;
+    &:nth-child(1) {
+      padding: 35px 9.28%;
+      margin-left: 6.5%;
+    }
+    &:nth-child(2) {
+      padding: 35px 9.24%;
+      margin-right: 4%;
+    }
+    &--light::after {
+      top: 30px;
+      right: 37px;
+    }
+    &--dark::after {
+      top: 31px;
+      right: 33px;
+    }
+  }
+
+  .categories__link {
+    position: relative;
+    top: -6px;
+    left: -31px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .categories {
+    &::after {
+      background-size: 1150px;
+    }
+    margin-bottom: 108px;
+  }
+  .categories__item {
+    &:nth-child(1) {
+      padding: 33px 10.65% 33px 10%;
+      margin-left: 4.34%;
+    }
+    &:nth-child(2) {
+      padding: 33px 10.65% 33px 10%;
+      margin-right: 4.34%;
+    }
+  }
+
+  .categories__link {
+    margin-left: -50px;
+  }
+
+  .categories::after {
+    width: 1150px;
+  }
+}

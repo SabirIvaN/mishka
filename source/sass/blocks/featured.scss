@@ -1,0 +1,254 @@
+.featured {
+  background: url("../img/bg-zigzag-line.svg") repeat-x center bottom;
+  background-size: 340px;
+  padding: 0 0 20px 0;
+}
+
+.featured__container {
+  width: 260px;
+  margin: 0 auto;
+}
+
+.featured__title {
+  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -1px;
+  margin-bottom: -8px;
+}
+
+.featured__subtitle {
+  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  color: #63d1bb;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.featured__text {
+  margin: 20px 0;
+  padding: 0;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #444444;
+  margin-bottom: 22px;
+}
+
+.featured__table {
+  margin-bottom: 16  px;
+}
+
+.featured__item {
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #444444;
+  position: relative;
+  display: flex;
+  letter-spacing: 0.01px;
+  &::before {
+    content: "";
+    display: block;
+    width: 265px;
+    height: 1px;
+    background: #ececec;
+    position: absolute;
+    margin-top: 32px;
+  }
+}
+
+.featured__field {
+  display: block;
+  margin: 0 0 19px -2px;
+}
+
+.featured__value {
+  display: block;
+  &--color {
+    margin-left: 55px;
+  }
+  &--sm {
+    margin-left: 27px;
+  }
+  &--height {
+    margin-left: 38px;
+  }
+}
+
+.featured__image {
+  margin: 20px 0 0 0;
+}
+
+.featured__price {
+  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #444444;
+  margin: 20px 0 27px 0;
+  letter-spacing: 0.5px;
+}
+
+.featured__button {
+  padding: 12px 31.9%;
+  margin-bottom: 22px;
+}
+
+@media (min-width: 768px) {
+  .featured {
+    background-size: 780px;
+    margin-bottom: 48px;
+  }
+
+  .featured__container {
+    width: 668px;
+    position: relative;
+  }
+
+  .featured__name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .featured__title {
+    font-size: 43px;
+    line-height: 50px;
+    letter-spacing: 0.1px;
+    margin: 0 0 20px -4px;
+  }
+
+  .featured__subtitle {
+    width: 100px;
+    text-align: center;
+  }
+
+  .featured__description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 47px;
+  }
+
+  .featured__text {
+    width: 300px;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 28px 0 40px 0;
+  }
+
+  .featured__item {
+    &::before {
+      margin-top: 33px;
+    }
+  }
+
+  .featured__field {
+    padding: 1px 0;
+  }
+
+  .featured_value {
+    padding: 1px 0;
+  }
+
+  .featured__image {
+    margin-top: 36px;
+  }
+
+  .featured__price {
+    position: absolute;
+    font-size: 20px;
+    bottom: 62px;
+    left: 70px;
+    letter-spacing: 0.2px;
+  }
+
+  .featured__button {
+    padding: 1.9% 15%;
+    position: absolute;
+    bottom: -20px;
+    left: -2px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .featured {
+    width: 1150px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 57px -50px;
+    background-size: 1050px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .featured__container {
+    width: 875px;
+    position: relative;
+    margin: 0;
+  }
+
+  .featured__name {
+    position: absolute;
+    left: -170px;
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .featured__description {
+    margin-bottom: 75px;
+  }
+
+  .featured__title {
+    order: 2;
+    font-size: 53px;
+    line-height: 57px;
+    margin: 0 0 0 0;
+    position: relative;
+    left: -37px;
+    letter-spacing: -0.2px;
+  }
+
+  .featured__subtitle {
+    order: 1;
+    position: relative;
+    left: 27px;
+    top: 10px;
+  }
+
+  .featured__item {
+    &::before {
+      width: 290px;
+      margin-top: 34px;
+    }
+  }
+
+  .featured__settings {
+    margin-top: 100px
+  }
+
+  .featured__text {
+    margin: 15px 0 52px 0;
+  }
+
+  .featured__image {
+    margin-top: -44px;
+  }
+
+  .featured__price {
+    bottom: 137px;
+    left: 72px;
+  }
+
+  .featured__button {
+    padding: 1.4% 11.35%;
+    bottom: 56px;
+    left: 0;
+  }
+}
