@@ -1,4 +1,5 @@
 .page-header {
+  margin: 1px 0 0px 0;
   border-bottom: 1px solid #ececec;
 }
 
@@ -11,13 +12,21 @@
   flex-direction: column;
 
   z-index: 1;
+
+  margin: 0 auto;
 }
 
 .page-header__logo {
   text-align: center;
   position: relative;
-  top: -3px;
+  top: -4px;
   right: 1px;
+  &:hover {
+    opacity: 0.6;
+  }
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 @media (min-width: 768px) {
@@ -32,6 +41,9 @@
     justify-content: flex-start;
   }
   .page-header__logo {
+    position: relative;
+    top: -11px;
+    left: -1.7px;
     text-align: left;
     margin-right: 200px;
   }
@@ -39,7 +51,7 @@
 
 @media (min-width: 1150px) {
   .page-header__container {
-    margin: 0;
+    margin: 0 auto;
     padding:0;
     width: 1050px;
     display: flex;
@@ -50,9 +62,9 @@
 
   .page-header__logo {
     position: relative;
-    top: 2px;
-    left: 1px;
-    margin: 0 0 0 0;
+    top: 8px;
+    left: -2px;
+    margin: 0;
     padding: 0;
   }
 }

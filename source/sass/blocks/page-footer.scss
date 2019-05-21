@@ -1,5 +1,4 @@
 .page-footer {
-  padding: 20px 20px 40px 20px;
   background-color: #f1f1f1;
   &--catalog {
     margin-top: -2px;
@@ -8,38 +7,54 @@
 
 .page-footer__logo {
   display: none;
+  &:hover {
+    fill: rgba(98, 209, 186, 1);
+  }
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .page-footer__container {
-  height: 100px;
+  width: 260px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
+  margin: 0 auto;
+  padding: 20px 0 23px 0;
 }
 
 @media (min-width: 768px) {
   .page-footer {
-    padding: 18px 20px 23px 20px;
+    padding: 25px 0 28px 0;
   }
 
   .page-footer__logo {
     display: block;
-    margin: 0 87px 0 30px;
+    margin: 0 87px 0 29px;
   }
 
   .page-footer__container {
+    width: 745px;
     justify-content: space-between;
+    margin: 0 auto;
+    padding-left: 16px;
   }
 }
 
 @media (min-width: 1150px) {
   .page-footer {
-    padding: 18px 20px 22px 20px;
+    padding: 23px 0 25px 0;
+  }
+
+  .page-footer__container {
+    width: 1100px;
+    margin: 0 auto;
   }
 
   .page-footer__logo {
-    margin: 0 80px 0 30px;
+    margin: 0 200px 0 18px;
   }
 }
