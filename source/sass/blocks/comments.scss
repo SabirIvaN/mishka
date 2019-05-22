@@ -11,7 +11,8 @@
   font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
   font-size: 25px;
   line-height: 30px;
-  margin-bottom: 25px;
+  margin: 1px 0 24px -2px;
+  letter-spacing: 0.2px;
 }
 
 .comments__blockquote {
@@ -25,6 +26,10 @@
   line-height: 30px;
   color: #444444;
   margin-bottom: 24px;
+}
+
+.comments__br {
+  display: none;
 }
 
 .comments__name {
@@ -42,13 +47,13 @@
 }
 
 .comments__buttons {
-  margin: 30px 0 37px 0;
+  margin: 29px 0 38px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
   border: 1px solid #ececec;
-  padding: 10px 0;
+  padding: 11px 0;
   text-align: center;
 }
 
@@ -59,23 +64,32 @@
   height: 28px;
   &--backward {
     background: #ffffff url("../img/icon-left-arrow.svg") no-repeat center center;
+    margin-left: -3px;
   }
   &--forward {
     background: #ffffff url("../img/icon-right-arrow.svg") no-repeat center center;
+    margin-right: 1px;
+  }
+  &:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  &:active {
+    opacity: 0.3;
   }
 }
 
 .comments__write-button {
-  padding: 13px 31%;
+  padding: 12px 31%;
   margin-bottom: 30px;
 }
 
 @media (min-width: 768px) {
   .comments {
     position: relative;
-    background:  url("../img/review@1x.jpg") no-repeat left center;
-    margin: 31px 0 43px 0;
+    margin: 31px auto 43px auto;
     padding: 20px 0;
+    background:  url("../img/review@1x.jpg") no-repeat left 24px;
   }
 
   .comments__container {
@@ -98,24 +112,26 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+    letter-spacing: 0.1px;
   }
 
   .comments__name {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 5px;
+    margin: 1px 0 5px -1px;
   }
 
   .comments__instagramm {
     font-size: 17px;
     line-height: 30px;
+    letter-spacing: -0.1px;
   }
 
   .comments__buttons {
     width: 173px;
     border: none;
     position: absolute;
-    bottom: 38px;
+    bottom: 39px;
     right: 51px;
   }
 
@@ -129,13 +145,18 @@
 
 @media (min-width: 1150px) {
   .comments {
-    padding: 50px 0;
-    margin: -7px 0 0 96px;
+    width: 1050px;
+    background: url("../img/review@1x.jpg") no-repeat 91px 31px;
+    height: 460px;
+    margin: 31px auto 55px auto;
+    position: relative;
+    top: -2px;
+    left: -91px;
   }
 
   .comments__container {
-    width: 875px;
-    margin: 0 0 100px 200px;
+    margin: -7px auto 0 auto;
+    padding: 0 80px 0 280px;
   }
 
   .comments__title {
@@ -151,20 +172,35 @@
     position: relative;
     top: 6px;
     left: -24px;
+    letter-spacing: -0.01px;
+  }
+
+  .comments__br {
+    display: block;
   }
 
   .comments__autor {
     position: relative;
     top: -10px;
     left: -25px;
+    letter-spacing: -0.4px;
+  }
+
+  .comments__instagramm {
+    margin-top: -1px;
+    letter-spacing: 0px;
   }
 
   .comments__buttons {
-    bottom: 130px;
+    position: absolute;
+    bottom: 75px;
+    right: -90px;
   }
 
   .comments__write-button {
-    top: 147px;
-    padding: 12px 3.45%;
+    position: absolute;
+    top: 110px;
+    padding: 12px 3.6%;
+    right: -90px;
   }
 }

@@ -11,6 +11,12 @@
   border: 1px solid #ededed;
   margin-bottom: 30px;
   padding-bottom: 27px;
+  &:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  &:active {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  }
 }
 
 .catalog__image {
@@ -32,8 +38,14 @@
   font-size: 17px;
   line-height: 24px;
   color: #000000;
-  letter-spacing: 1px;
+  letter-spacing: 1.1px;
   margin: 0 0 5px 1px;
+  &--cart {
+    letter-spacing: 0.7px;
+  }
+  &--cart-toy {
+    letter-spacing: 0.8px;
+  }
 }
 
 .catalog__description {
@@ -71,6 +83,13 @@
   background: #ffffff url("../img/icon-cart.svg") no-repeat center center;
   border: none;
   margin-right: -15px;
+  &:hover {
+    background-image: url("../img/icon-cart-hover.svg");
+    cursor: pointer;
+  }
+  &:active {
+    background-image: url("../img/icon-cart-active.svg");
+  }
 }
 
 @media (min-width: 768px) {
@@ -108,8 +127,14 @@
     width: 250px;
     font-size: 20px;
     line-height: 24px;
-    margin: 25px 0 5px -1px;
-    letter-spacing: 1px;
+    margin: 26px 0 5px -1px;
+    letter-spacing: 1.3px;
+    &--cart {
+      letter-spacing: 0.7px;
+    }
+    &--cart-toy {
+      letter-spacing: 1px;
+    }
   }
 
   .catalog__description {
@@ -118,12 +143,15 @@
     line-height: 30px;
     letter-spacing: 0.2px;
     &--two {
+      letter-spacing: -0.1px;
       margin: 3px 0 0 -1px;
     }
   }
 
   .catalog__price {
     font-size: 17px;
+    letter-spacing: 0;
+    margin: 2px 0 0 -13px;
   }
 
   .catalog__purchase {
@@ -143,6 +171,7 @@
   .catalog__item {
     width: 315px;
     display: flex;
+    margin: -1px 0 50px -1px;
   }
 
   .catalog__image {
@@ -154,16 +183,26 @@
 
   .catalog__title {
     margin: 22px 0 5px -1px;
-    letter-spacing: 1.3px;
+    letter-spacing: 1.4px;
+    &--rabbit {
+      margin-left: 0;
+    }
     &--cart {
-      letter-spacing: 0.8px;
+      letter-spacing: 0.9px;
       margin-bottom: 2px;
+    }
+    &--cart-toy {
+      letter-spacing: 1px;
     }
   }
 
   .catalog__description {
+    letter-spacing: 0.3px;
     &--two {
       letter-spacing: -0.1px;
+    }
+    &--three {
+      letter-spacing: 0;
     }
   }
 
@@ -173,6 +212,10 @@
 
   .catalog__cost {
     width: 90%;
-    margin: 0 0 25px 26px;
+    margin: 0 0 26px 26px;
+  }
+
+  .catalog__purchase {
+    margin-right: -4px;
   }
 }
