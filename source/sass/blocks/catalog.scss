@@ -1,11 +1,28 @@
+.catalog {
+  width: 260px;
+  margin: 0 auto;
+}
+
 .catalog__item {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-end;
+  align-items: flex-start;
   flex-wrap: wrap;
   border: 1px solid #ededed;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
   padding-bottom: 27px;
+  &:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  &:active {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
+.catalog__image {
+  width: 260px;
+  height: 195px;
+  margin-bottom: 27px;
 }
 
 .catalog__presentation {
@@ -18,40 +35,187 @@
 
 .catalog__title {
   font-family: "Open Sans Block", "Arial", "Helvetica", sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
   color: #000000;
+  letter-spacing: 1.1px;
+  margin: 0 0 5px 1px;
+  &--cart {
+    letter-spacing: 0.7px;
+  }
+  &--cart-toy {
+    letter-spacing: 0.8px;
+  }
 }
 
 .catalog__description {
   width: 205px;
   display: block;
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 30px;
   color: #444444;
-  margin-bottom: 20px;
+  margin-bottom: -1px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #ececec;
 }
 
 .catalog__cost {
-  width: 100%;
-  padding: 0 10%;
+  width: 69%;
+  padding: 20px 5% 0 5%;
+  margin-left: 27px;
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid #ececec;
 }
 
 .catalog__price {
   font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
   font-size: 14px;
   line-height: 24px;
+  margin-left: -12px;
+  letter-spacing: 0.5px;
 }
 
 .catalog__purchase {
   font-size: 0;
   width: 21px;
   height: 20px;
-  background: #ffffff url("../../img/icon-cart.svg") no-repeat center center;
+  background: #ffffff url("../img/icon-cart.svg") no-repeat center center;
   border: none;
+  margin-right: -15px;
+  &:hover {
+    background-image: url("../img/icon-cart-hover.svg");
+    cursor: pointer;
+  }
+  &:active {
+    background-image: url("../img/icon-cart-active.svg");
+  }
+}
+
+@media (min-width: 768px) {
+  .catalog {
+    width: 668px;
+  }
+
+  .catalog__item {
+    padding: 0;
+    margin-bottom: 51px;
+  }
+
+  .catalog__content {
+    width: 270px;
+  }
+
+  .catalog__presentation {
+    height: 50px;
+    margin-bottom: 77.5%;
+  }
+
+  .catalog__cost {
+    width: 95%;
+    margin-left: 31px;
+    padding: 22px 0 0 12px;
+  }
+
+  .catalog__image {
+    width: 334px;
+    height: 334px;
+    margin: 0;
+  }
+
+  .catalog__title {
+    width: 250px;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 26px 0 5px -1px;
+    letter-spacing: 1.3px;
+    &--cart {
+      letter-spacing: 0.7px;
+    }
+    &--cart-toy {
+      letter-spacing: 1px;
+    }
+  }
+
+  .catalog__description {
+    width: 250px;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    &--two {
+      letter-spacing: -0.1px;
+      margin: 3px 0 0 -1px;
+    }
+  }
+
+  .catalog__price {
+    font-size: 17px;
+    letter-spacing: 0;
+    margin: 2px 0 0 -13px;
+  }
+
+  .catalog__purchase {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .catalog {
+    width: 1050px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .catalog__item {
+    width: 315px;
+    display: flex;
+    margin: -1px 0 50px -1px;
+  }
+
+  .catalog__image {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .catalog__title {
+    margin: 22px 0 5px -1px;
+    letter-spacing: 1.4px;
+    &--rabbit {
+      margin-left: 0;
+    }
+    &--cart {
+      letter-spacing: 0.9px;
+      margin-bottom: 2px;
+    }
+    &--cart-toy {
+      letter-spacing: 1px;
+    }
+  }
+
+  .catalog__description {
+    letter-spacing: 0.3px;
+    &--two {
+      letter-spacing: -0.1px;
+    }
+    &--three {
+      letter-spacing: 0;
+    }
+  }
+
+  .catalog__presentation {
+    margin-bottom: 25.5%;
+  }
+
+  .catalog__cost {
+    width: 90%;
+    margin: 0 0 26px 26px;
+  }
+
+  .catalog__purchase {
+    margin-right: -4px;
+  }
 }

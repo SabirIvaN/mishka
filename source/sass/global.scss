@@ -13,11 +13,29 @@
 body {
   font-size: 16px;
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  width: 260px;
+  width: 320px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .container {
+    width: 1150px;
+  }
+}
+
+.visual-hidden {
+  display: none;
 }
 
 .button {
@@ -25,7 +43,16 @@ body {
   text-transform: uppercase;
   font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
   color: #444444;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
   padding: 14px 33%;
+  background: #FFFFFF;
+  cursor: pointer;
+  &:hover {
+    background: #444444;
+    color: #FFFFFF;
+  }
+  &:active {
+    color: #8D8D8D;
+  }
 }
