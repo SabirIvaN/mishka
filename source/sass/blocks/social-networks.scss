@@ -1,4 +1,4 @@
-.social-network {
+.social-networks {
   list-style: none;
   padding: 0 0 25px 0;
   margin: 0 auto 22px auto;
@@ -19,7 +19,7 @@
   }
 }
 
-.social-network__link {
+.social-networks__item-link {
   font-size: 0;
   display: block;
   background: center no-repeat;
@@ -59,18 +59,18 @@
 }
 
 @media (min-width: 768px) {
-  .social-network {
+  .social-networks {
     padding: 0;
     width: 146px;
     margin: -1px 0 0 -44px;
     position: relative;
     left: 117px;
   }
-  .social-network::before {
+  .social-networks::before {
     display: none;
   }
 
-  .social-network__link {
+  .social-networks__item-link {
     &--instagramm {
       margin: 0 0 -2px -1px;
     }
@@ -85,7 +85,7 @@
 }
 
 @media (min-width: 1150px) {
-  .social-network__link {
+  .social-networks__item-link {
     position: relative;
     &--instagramm {
       top: 1px;
