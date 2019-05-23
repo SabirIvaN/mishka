@@ -90,6 +90,11 @@
     margin: 31px auto 43px auto;
     padding: 20px 0;
     background:  url("../img/review@1x.jpg") no-repeat left 24px;
+    background-size: 350px 457px;
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background-image: url("../img/hero-tablet@2x.jpg");
+        background-size: 350px 457px;
+      }
   }
 
   .comments__container {
@@ -147,6 +152,11 @@
   .comments {
     width: 1050px;
     background: url("../img/review@1x.jpg") no-repeat 91px 31px;
+    background-size: 350px 457px;
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background-image: url("../img/hero-tablet@2x.jpg");
+        background-size: 350px 457px;
+      }
     height: 460px;
     margin: 31px auto 55px auto;
     position: relative;
