@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=9;IE=10;IE=Edge,chrome=1" />
     <title>Mishka</title>
     <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.min.css">
   </head>
   <body>
     <div style="display:none">
@@ -47,7 +48,7 @@
       <div class="main-header">
         <h1 class="main-header__title">Вязание на заказ</h1>
       </div>
-      <form class="form" action="#" method="POST">
+      <form class="form container" action="#" method="POST">
         <p class="form__text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
         <div class="form__item">
           <h2 class="form__title form__title--type">Тип</h2>
@@ -85,11 +86,11 @@
               <input class="form__input-text form__input-text--name" type="text" name="form-text" placeholder="Введите ваше имя*" id="form-text-1">
             </div>
             <div class="form__element">
-              <label class="form__label form__label--input" for="form-text-2">Фамилия:</label>
+              <label class="form__label form__label--input form__label--surname" for="form-text-2">Фамилия:</label>
               <input class="form__input-text form__input-text--surname" type="text" name="form-text" placeholder="Укажите фамилию*" id="form-text-2">
             </div>
             <div class="form__element">
-              <label class="form__label form__label--input" for="form-text-3">Отчество:</label>
+              <label class="form__label form__label--input form__label--patron" for="form-text-3">Отчество:</label>
               <input class="form__input-text form__input-text--patron" type="text" name="form-text" placeholder="Отчество, если желаете" id="form-text-3">
             </div>
           </div>
@@ -158,5 +159,6 @@
       </form>
     </div>
     <script src="js/main.js"></script>
+    <script src="js/picturefill.min.js"></script>
   </body>
 </html>
