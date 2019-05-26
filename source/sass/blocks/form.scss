@@ -204,6 +204,7 @@
   margin-bottom: 20px;
   letter-spacing: 0.5px;
   z-index: 0;
+  outline: none;
   &--phone {
     letter-spacing: 1.4px;
   }
@@ -475,7 +476,7 @@
 
 @media (min-width: 1150px) {
   .form {
-    margin: -7px 0 30px 0;
+    margin: -7px auto 30px auto;
   }
 
   .form__text {

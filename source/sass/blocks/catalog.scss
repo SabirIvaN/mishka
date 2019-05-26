@@ -83,6 +83,7 @@
   background: #ffffff url("../img/icon-cart.svg") no-repeat center center;
   border: none;
   margin-right: -15px;
+  outline: none;
   &:hover {
     background-image: url("../img/icon-cart-hover.svg");
     cursor: pointer;
