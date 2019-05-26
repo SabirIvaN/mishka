@@ -60,7 +60,7 @@
 }
 
 .contacts__map {
-  margin: -30px auto 36px auto;
+  margin: -30px auto 34px auto;
   background: #dfdfdf url("../img/map-mobile@1x.jpg") no-repeat center center;
   background-size: 320px 457px;
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -157,12 +157,12 @@
         background-size: 768px 460px;
       }
     margin: 0 auto;
-    margin-bottom: 51px;
+    margin-bottom: 49px;
   }
 
   .contacts__button {
     width: auto;
-    margin-left: 32.8%;
+    margin-left: 32.7%;
     padding: 12px 39px;
   }
 }

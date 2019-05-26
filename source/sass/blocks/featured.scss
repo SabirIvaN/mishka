@@ -100,7 +100,7 @@
   padding: 0;
   text-align: center;
   color: #444444;
-  margin: 21px 0 26px -3px;
+  margin: 19px 0 26px -3px;
   letter-spacing: 0.5px;
 }
 
@@ -201,25 +201,22 @@
   .featured__price {
     position: absolute;
     font-size: 20px;
-    bottom: 62px;
-    left: 70px;
+    bottom: 65px;
+    left: 72px;
     letter-spacing: 0.2px;
   }
 
   .featured__button {
     padding: 1.8% 14.9%;
     position: absolute;
-    bottom: -19px;
+    bottom: -17px;
     left: -3px;
   }
 }
 
 @media (min-width: 1150px) {
   .featured {
-    display: flex;
-    justify-content: flex-end;
     margin: 0 0 57px 0;
-    padding-left: 175px;
     background-size: 1050px 21px;
     background-repeat: repeat-x;
     background-position: 24px bottom;
@@ -228,7 +225,8 @@
   .featured__container {
     width: 875px;
     position: relative;
-    margin: 0 auto -3px auto;
+    margin: 0 auto -5px auto;
+    padding-left: 175px;
   }
 
   .featured__name {
@@ -249,7 +247,7 @@
     line-height: 57px;
     margin: 0 0 0 0;
     position: relative;
-    left: -37px;
+    left: -7px;
     letter-spacing: -0.2px;
     z-index: 1;
   }
@@ -257,8 +255,8 @@
   .featured__subtitle {
     order: 1;
     position: relative;
-    left: 27px;
-    top: 10px;
+    left: 202px;
+    top: 8px;
   }
 
   .featured__item {
@@ -306,14 +304,14 @@
   }
 
   .featured__price {
-    bottom: 137px;
-    left: 72px;
+    bottom: 65px;
+    left: 250px;
     letter-spacing: 0.2px;
   }
 
   .featured__button {
-    padding: 1.4% 11.35%;
-    bottom: 56px;
-    left: 0;
+    padding: 1.15% 9.5%;
+    bottom: -17px;
+    left: 174px;
   }
 }
