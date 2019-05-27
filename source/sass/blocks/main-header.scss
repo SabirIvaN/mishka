@@ -15,7 +15,7 @@
   letter-spacing: 0.2px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .main-header {
     padding: 94px 0 88px 0;
     position: relative;
@@ -41,7 +41,7 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop-width) {
   .main-header {
     padding: 93px 0 107px 0;
     margin-bottom: 126px;

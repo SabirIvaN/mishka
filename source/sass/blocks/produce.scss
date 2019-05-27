@@ -74,7 +74,7 @@
   margin: 12px 17px 32px 23px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .produce {
     width: 668px;
     padding: 0;
@@ -118,7 +118,7 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop-width) {
   .produce {
     width: 1050px;
     height: 454px;

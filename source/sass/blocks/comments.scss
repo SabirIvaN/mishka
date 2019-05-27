@@ -83,7 +83,7 @@
   margin-bottom: 30px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .comments {
     position: relative;
     margin: 31px auto 43px auto;
@@ -147,7 +147,7 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop-width) {
   .comments {
     width: 1050px;
     background: url("../img/review@1x.jpg") no-repeat 91px 31px;

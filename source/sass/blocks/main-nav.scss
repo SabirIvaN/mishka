@@ -114,7 +114,7 @@
   background: url("../img/icon-menu-close.svg") no-repeat center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .main-nav {
     &:nth-child(1) {
       margin-bottom: 0;
@@ -222,7 +222,7 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop-width) {
   .main-nav {
     width: 500px;
     height: 87px;

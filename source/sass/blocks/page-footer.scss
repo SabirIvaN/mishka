@@ -58,7 +58,7 @@
   margin: 5px 0 0 29px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .page-footer {
     padding: 42px 0 28px 0;
   }
@@ -89,7 +89,7 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop-width) {
   .page-footer {
     padding: 40px 0 26px 0;
   }

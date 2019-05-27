@@ -107,7 +107,7 @@
   margin-bottom: 22px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .featured {
     background-size: 768px 17px;
     background-position: 19px bottom;
@@ -212,7 +212,7 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop-width) {
   .featured {
     margin: 0 0 58px 0;
     background-size: 1050px 21px;
