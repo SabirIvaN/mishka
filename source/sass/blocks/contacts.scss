@@ -8,14 +8,13 @@
 }
 
 .contacts__title {
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 30px;
   margin: 34px 0 23px -2px;
 }
 
 .contacts__table {
-  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   font-size: 15px;
   line-height: 30px;
   color: #444444;
@@ -60,11 +59,11 @@
 }
 
 .contacts__map {
-  margin: -30px auto 34px auto;
+  margin: -30px auto 36px auto;
   background: #dfdfdf url("../img/map-mobile@1x.jpg") no-repeat center center;
   background-size: 320px 457px;
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-      background-image: url("../img/map-mobile@1x.jpg");
+      background-image: url("../img/map-mobile@2x.jpg");
       background-size: 320px 457px;
     }
   border: none;
@@ -109,7 +108,7 @@
   .contacts__table {
     font-size: 17px;
     line-height: 30px;
-    margin: 0 0 25px -3px;
+    margin: 0 0 27px -3px;
     letter-spacing: -0.2px;
   }
 
@@ -122,7 +121,7 @@
 
   .contacts__item {
     &:nth-child(1) {
-      margin-right: 15px;
+      margin-right: 16px;
     }
   }
 
@@ -133,7 +132,7 @@
   .contacts__value {
     width: 230px;
     &--address {
-      padding-left: 22px;
+      padding-left: 23px;
       letter-spacing: -0.1px;
     }
   }
@@ -141,15 +140,12 @@
   .contacts__email {
     letter-spacing: -0.1px;
     margin-left: -8px;
-  }
-
-  .contacts__email {
     padding-bottom: 2px;
   }
 
   .contacts__map {
     width: 768px;
-    height: 460px;
+    height: 457px;
     background: url("../img/map-tablet@1x.jpg") no-repeat center center;
     background-size: 768px 460px;
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -157,13 +153,13 @@
         background-size: 768px 460px;
       }
     margin: 0 auto;
-    margin-bottom: 49px;
+    margin-bottom: 52px;
   }
 
   .contacts__button {
     width: auto;
-    margin-left: 32.7%;
-    padding: 12px 39px;
+    margin-left: 32.8%;
+    padding: 12px 36px;
   }
 }
 
@@ -172,7 +168,7 @@
     width: 1050px;
     display: flex;
     position: relative;
-    margin: 0 auto 182px auto;
+    margin: 0 auto 180px auto;
     padding: 41px 0 0 5px;
   }
 
@@ -215,7 +211,7 @@
     background: url("../img/map-desktop@1x.jpg") no-repeat center center;
     background-size: 525px 457px;
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-        background-image: url("../img/map-tablet@2x.jpg");
+        background-image: url("../img/map-desktop@2x.jpg");
         background-size: 525px 457px;
       }
     width: 525px;
@@ -227,8 +223,8 @@
 
   .contacts__button {
     position: absolute;
-    bottom: -77px;
+    bottom: -75px;
     left: -169px;
-    padding: 12px 39px;
+    padding: 12px 36px;
   }
 }

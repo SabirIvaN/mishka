@@ -18,7 +18,7 @@
 }
 
 .modal-window__title {
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   font-size: 25px;
   line-height: 30px;
   text-transform: uppercase;
@@ -30,7 +30,6 @@
 .modal-window__subtitle {
   display: block;
   width: 150px;
-  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   font-size: 15px;
   line-height: 30px;
   color: #444444;
@@ -58,7 +57,7 @@
   padding: 16px 33px;
   text-align: center;
   border: 2px solid #ececec;
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 16px;
   color: #444444;
@@ -79,8 +78,8 @@
   border: 2px #63d1bb;
   background: #63d1bb;
   color: #ffffff;
-  margin: 32px auto 0 auto;
-  padding: 5.5% 31.7%;
+  margin: 32px 10px 0 -2px;
+  padding: 5.5% 31.4%;
   &:hover {
     background: #63d1bb;
     color: #ffffff;
@@ -126,6 +125,6 @@
     width: 350px;
     height: 52px;
     margin: 33px 0 0 0;
-    padding: 5% 31% 5% 31%;
+    padding: 5% 30%;
   }
 }

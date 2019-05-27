@@ -6,22 +6,16 @@
   border: 1px solid #ededed;
   display: flex;
   flex-direction: column;
-  &:hover {
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
-  }
-  &:active {
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
-  }
 }
 
 .produce__title {
   width: 50%;
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   padding-left: 90px;
   position: relative;
-  margin-bottom: 9px;
+  margin: 12px 0 13px 0;
   &::before {
     content: "";
     display: block;
@@ -70,15 +64,14 @@
 }
 
 .produce__text {
-  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   font-size: 13px;
   line-height: 24px;
   padding: 0 10%;
 }
 
 .produce__button {
-  padding: 12px 24px;
-  margin: 12px 18px 32px 24px;
+  padding: 12px 21px;
+  margin: 12px 17px 32px 23px;
 }
 
 @media (min-width: 768px) {
@@ -91,7 +84,7 @@
   .produce__title {
     font-size: 20px;
     line-height: 24px;
-    margin: 22px 0 0 16px;
+    margin: 24px 0 0 16px;
     letter-spacing: 0.2px;
     &::before {
       top: 0;
@@ -115,13 +108,13 @@
     width: 98%;
     font-size: 15px;
     line-height: 30px;
-    margin: 19px 0 35px -31px;
+    margin: 20px 0 36px -31px;
     letter-spacing: 0.02px;
   }
 
   .produce__button {
     margin: 0 -14px 45px 5.1%;
-    padding: 12px 36.65%;
+    padding: 12px 36.1%;
   }
 }
 
@@ -133,7 +126,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     position: relative;
-    margin: 5px auto 104px auto;
+    margin: 5px auto 105px auto;
   }
 
   .produce__block:nth-child(1) {
@@ -168,8 +161,8 @@
 
   .produce__button {
     position: absolute;
-    bottom: 15px;
-    right: 71px;
-    padding: 1.15% 43px;
+    bottom: 14px;
+    right: 72px;
+    padding: 1.15% 40px;
   }
 }

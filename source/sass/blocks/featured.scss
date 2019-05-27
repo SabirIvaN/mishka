@@ -10,7 +10,7 @@
 }
 
 .featured__title {
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   font-size: 25px;
   line-height: 30px;
   letter-spacing: 0.1px;
@@ -18,7 +18,7 @@
 }
 
 .featured__subtitle {
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   font-size: 17px;
   line-height: 17px;
   color: #63d1bb;
@@ -29,7 +29,6 @@
 .featured__text {
   margin: 20px 0;
   padding: 0;
-  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   font-size: 15px;
   line-height: 24px;
   color: #444444;
@@ -42,7 +41,6 @@
 }
 
 .featured__item {
-  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   font-size: 15px;
   line-height: 20px;
   color: #444444;
@@ -93,14 +91,14 @@
 }
 
 .featured__price {
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   margin: 0;
   padding: 0;
   text-align: center;
   color: #444444;
-  margin: 19px 0 26px -3px;
+  margin: 21px 0 26px -3px;
   letter-spacing: 0.5px;
 }
 
@@ -201,22 +199,22 @@
   .featured__price {
     position: absolute;
     font-size: 20px;
-    bottom: 65px;
+    bottom: 64px;
     left: 72px;
     letter-spacing: 0.2px;
   }
 
   .featured__button {
-    padding: 1.8% 14.9%;
+    padding: 1.8% 14.6%;
     position: absolute;
-    bottom: -17px;
+    bottom: -18px;
     left: -3px;
   }
 }
 
 @media (min-width: 1150px) {
   .featured {
-    margin: 0 0 57px 0;
+    margin: 0 0 58px 0;
     background-size: 1050px 21px;
     background-repeat: repeat-x;
     background-position: 24px bottom;
@@ -245,7 +243,7 @@
     order: 2;
     font-size: 53px;
     line-height: 57px;
-    margin: 0 0 0 0;
+    margin: 0;
     position: relative;
     left: -7px;
     letter-spacing: -0.2px;
@@ -304,14 +302,14 @@
   }
 
   .featured__price {
-    bottom: 65px;
+    bottom: 63px;
     left: 250px;
     letter-spacing: 0.2px;
   }
 
   .featured__button {
-    padding: 1.15% 9.5%;
-    bottom: -17px;
+    padding: 1.15% 9.3%;
+    bottom: -19px;
     left: 174px;
   }
 }

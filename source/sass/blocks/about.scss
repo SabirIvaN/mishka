@@ -10,7 +10,7 @@
 }
 
 .about__title {
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   font-size: 25px;
   line-height: 30px;
   margin: 27px 0 86px -2px;
@@ -23,7 +23,7 @@
 }
 
 .about__item {
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   font-size: 17px;
   line-height: 20px;
   color: #000000;
@@ -125,7 +125,7 @@
     font-size: 43px;
     line-height: 50px;
     letter-spacing: -0.3px;
-    margin: 0 0 100px -4px;
+    margin: 0 0 101px -4px;
   }
 
   .about__list {
@@ -141,18 +141,18 @@
     letter-spacing: 0.1px;
     &:nth-child(1) {
       width: 220px;
-      margin: 2px 17% 0 0;
+      margin: 2px 17% 0 1px;
       order: 1;
     }
     &:nth-child(2) {
       width: 240px;
       order: 3;
-      margin: 30px 10% 0 0;
+      margin: 30px 10% 0 1px;
     }
     &:nth-child(3) {
       width: 240px;
       order: 5;
-      margin: 83px 13% 0 0;
+      margin: 83px 13% 0 1px;
     }
     &:nth-child(4) {
       width: 250px;
@@ -168,7 +168,7 @@
       letter-spacing: 0.2px;
     }
     &:nth-child(6) {
-      margin: 83px 0 0 8px;
+      margin: 83px 0 0 7px;
       order: 6;
     }
   }
@@ -179,7 +179,7 @@
     width: 100%;
     background-position: 22px bottom;
     background-size: 1050px 21px;
-    margin-bottom: 105px;
+    margin-bottom: 103px;
   }
 
   .about__container {
@@ -191,18 +191,21 @@
   .about__title {
     font-size: 53px;
     line-height: 57px;
-    margin-bottom: 100px;
+    margin: 0 0 101px -5px;
     letter-spacing: -0.5px;
   }
 
   .about__item {
     margin-bottom: 50px;
     letter-spacing: 0.1px;
+    &:nth-child(1) {
+      margin-left: -1px;
+    }
     &:nth-child(2) {
-      margin-top: 30px;
+      margin: 30px 81px 0 -1px;
     }
     &:nth-child(3) {
-      margin-top: 77px;
+      margin: 78px 104px 0 0;
     }
     &:nth-child(4) {
       margin-left: -6px;

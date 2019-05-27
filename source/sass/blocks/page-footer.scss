@@ -22,7 +22,7 @@
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
-  padding: 4px 0 23px 0;
+  padding: 4px 0 24px 0;
 }
 
 .page-footer__developed {
@@ -31,7 +31,7 @@
   align-items: center;
   width: 70%;
   cursor: pointer;
-  margin-left: 10%;
+  margin: -1px 0 0 9%;
   &:active {
     opacity: 0.3;
   }
@@ -46,10 +46,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.7px;
   margin: -2px 0 0 -13px;
+  color: #000000;
+  text-decoration: none;
 }
 
 .page-footer__image {
@@ -89,7 +91,7 @@
 
 @media (min-width: 1150px) {
   .page-footer {
-    padding: 40px 0 27px 0;
+    padding: 40px 0 26px 0;
   }
 
   .page-footer__container {
