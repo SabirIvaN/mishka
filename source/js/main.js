@@ -13,20 +13,34 @@ buttonMenu.addEventListener("click", function() {
   formMenu_2.classList.toggle("main-nav__list--viewer");
 });
 
+var button = document.querySelector("#featured__button");
 var purchase = document.getElementsByClassName("catalog__purchase");
-var overlay = document.querySelector(".overlay");
+var overlay_1 = document.querySelector(".overlay");
+var overlay_2 = document.querySelector(".overlay");
 var modal = document.querySelector(".modal-window");
 
 for (var i = 0; i < purchase.length; i++) {
   purchase[i].addEventListener("click", function() {
     event.preventDefault();
-    overlay.classList.add("overlay--show");
+    overlay_1.classList.add("overlay--show");
     modal.classList.add("modal-window--show");
   });
 }
 
-overlay.addEventListener("click", function() {
+overlay_1.addEventListener("click", function() {
   event.preventDefault();
-  overlay.classList.remove("overlay--show");
+  overlay_1.classList.remove("overlay--show");
+  modal.classList.remove("modal-window--show");
+});
+
+button.addEventListener("click", function() {
+  event.preventDefault();
+  overlay_2.classList.add("overlay--show");
+  modal.classList.add("modal-window--show");
+});
+
+overlay_2.addEventListener("click", function() {
+  event.preventDefault();
+  overlay_2.classList.remove("overlay--show");
   modal.classList.remove("modal-window--show");
 });
