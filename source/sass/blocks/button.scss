@@ -1,12 +1,13 @@
 .button {
   border: 2px solid #444444;
   text-transform: uppercase;
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   color: #444444;
   font-size: 17px;
   line-height: 24px;
   padding: 14px 33%;
   background: #FFFFFF;
+  letter-spacing: 0.5px;
   cursor: pointer;
   outline: none;
   &:hover {

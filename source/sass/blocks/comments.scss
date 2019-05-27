@@ -8,7 +8,7 @@
 }
 
 .comments__title {
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   font-size: 25px;
   line-height: 30px;
   margin: 1px 0 24px -2px;
@@ -21,7 +21,6 @@
 }
 
 .comments__text {
-  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   font-size: 15px;
   line-height: 30px;
   color: #444444;
@@ -33,14 +32,13 @@
 }
 
 .comments__name {
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   font-size: 17px;
   line-height: 30px;
   font-style: normal;
 }
 
 .comments__instagramm {
-  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   font-size: 17px;
   line-height: 30px;
   font-style: normal;
@@ -93,7 +91,7 @@
     background:  url("../img/review@1x.jpg") no-repeat left 24px;
     background-size: 350px 457px;
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-        background-image: url("../img/hero-tablet@2x.jpg");
+        background-image: url("../img/review@2x.jpg");
         background-size: 350px 457px;
       }
   }
@@ -155,11 +153,11 @@
     background: url("../img/review@1x.jpg") no-repeat 91px 31px;
     background-size: 350px 457px;
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-        background-image: url("../img/hero-tablet@2x.jpg");
+        background-image: url("../img/review@2x.jpg");
         background-size: 350px 457px;
       }
     height: 460px;
-    margin: 31px auto 55px auto;
+    margin: 31px auto 57px auto;
     position: relative;
     top: -2px;
     left: -91px;
@@ -175,7 +173,7 @@
     line-height: 57px;
     position: relative;
     top: 7px;
-    left: -23px;
+    left: -24px;
   }
 
   .comments__text {
@@ -192,7 +190,7 @@
 
   .comments__autor {
     position: relative;
-    top: -10px;
+    top: -11px;
     left: -25px;
     letter-spacing: -0.4px;
   }

@@ -13,15 +13,17 @@ buttonMenu.addEventListener("click", function() {
   formMenu_2.classList.toggle("main-nav__list--viewer");
 });
 
-var purchase = document.querySelector(".catalog__purchase");
+var purchase = document.getElementsByClassName("catalog__purchase");
 var overlay = document.querySelector(".overlay");
 var modal = document.querySelector(".modal-window");
 
-purchase.addEventListener("click", function() {
-  event.preventDefault();
-  overlay.classList.add("overlay--show");
-  modal.classList.add("modal-window--show");
-});
+for (var i = 0; i < purchase.length; i++) {
+  purchase[i].addEventListener("click", function() {
+    event.preventDefault();
+    overlay.classList.add("overlay--show");
+    modal.classList.add("modal-window--show");
+  });
+}
 
 overlay.addEventListener("click", function() {
   event.preventDefault();

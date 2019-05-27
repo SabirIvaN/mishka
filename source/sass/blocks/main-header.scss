@@ -7,7 +7,7 @@
 .main-header__title {
   width: 100%;
   margin: 0 auto;
-  font-family: "Open Sans Bold", "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
   font-size: 27px;
   line-height: 30px;
   align-items: center;
@@ -17,7 +17,7 @@
 
 @media (min-width: 768px) {
   .main-header {
-    padding: 92px 0 90px 0;
+    padding: 94px 0 88px 0;
     position: relative;
     margin-bottom: 71px;
     &::after {
