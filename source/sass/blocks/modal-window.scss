@@ -89,7 +89,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .modal-window {
     width: 567px;
     height: 300px;

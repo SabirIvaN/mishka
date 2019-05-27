@@ -76,7 +76,7 @@
   padding: 12px 50px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .contacts {
     width: 768px;
     margin-bottom: 57px;
@@ -163,7 +163,7 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop-width) {
   .contacts {
     width: 1050px;
     display: flex;

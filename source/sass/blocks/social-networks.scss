@@ -58,7 +58,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .social-networks {
     padding: 0;
     width: 146px;
@@ -84,7 +84,7 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop-width) {
   .social-networks__item-link {
     position: relative;
     &--instagramm {

@@ -68,7 +68,7 @@
   opacity: 0.3;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .categories {
     margin: -3px auto 33px auto;
     position: relative;
@@ -119,7 +119,7 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop-width) {
   .categories {
     margin-bottom: 112px;
     &::after {
