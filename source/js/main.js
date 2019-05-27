@@ -15,8 +15,7 @@ buttonMenu.addEventListener("click", function() {
 
 var button = document.querySelector("#featured__button");
 var purchase = document.getElementsByClassName("catalog__purchase");
-var overlay_1 = document.querySelector(".overlay");
-var overlay_2 = document.querySelector(".overlay");
+var overlay = document.getElementsByClassName("overlay");
 var modal = document.querySelector(".modal-window");
 
 for (var i = 0; i < purchase.length; i++) {
@@ -27,7 +26,7 @@ for (var i = 0; i < purchase.length; i++) {
   });
 }
 
-overlay_1.addEventListener("click", function() {
+overlay.addEventListener("click", function() {
   event.preventDefault();
   overlay_1.classList.remove("overlay--show");
   modal.classList.remove("modal-window--show");
