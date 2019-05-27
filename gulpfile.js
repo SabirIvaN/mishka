@@ -73,10 +73,14 @@ gulp.task("copy", function() {
     .pipe(gulp.dest("build"));
 });
 
-gulp.task("build", gulp.series("images", "webp", "css", "copy", "html"));
 gulp.task("clean", function() {
   return del("build");
 });
+
+gulp.task(
+  "build",
+  gulp.series("clean", "images", "webp", "css", "copy", "html")
+);
 
 gulp.task("server", function() {
   server.init({

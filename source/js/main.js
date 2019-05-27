@@ -14,32 +14,30 @@ buttonMenu.addEventListener("click", function() {
 });
 
 var button = document.querySelector("#featured__button");
-var purchase = document.getElementsByClassName("catalog__purchase");
-var overlay = document.getElementsByClassName("overlay");
+var purchase = document.querySelectorAll(".catalog__purchase");
+var overlay = document.querySelector(".overlay");
 var modal = document.querySelector(".modal-window");
 
-for (var i = 0; i < purchase.length; i++) {
-  purchase[i].addEventListener("click", function() {
+if (purchase) {
+  console.log("catalog");
+  for (var i = 0; i < purchase.length; i++) {
+    purchase[i].addEventListener("click", function() {
+      event.preventDefault();
+      overlay.classList.add("overlay--show");
+      modal.classList.add("modal-window--show");
+    });
+  }
+}
+
+if (button) {
+  button.addEventListener("click", function() {
     event.preventDefault();
-    overlay_1.classList.add("overlay--show");
+    overlay.classList.add("overlay--show");
     modal.classList.add("modal-window--show");
   });
 }
 
 overlay.addEventListener("click", function() {
-  event.preventDefault();
-  overlay_1.classList.remove("overlay--show");
-  modal.classList.remove("modal-window--show");
-});
-
-button.addEventListener("click", function() {
-  event.preventDefault();
-  overlay_2.classList.add("overlay--show");
-  modal.classList.add("modal-window--show");
-});
-
-overlay_2.addEventListener("click", function() {
-  event.preventDefault();
-  overlay_2.classList.remove("overlay--show");
+  overlay.classList.remove("overlay--show");
   modal.classList.remove("modal-window--show");
 });
