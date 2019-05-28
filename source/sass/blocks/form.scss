@@ -81,10 +81,10 @@
 .form__label {
   width: 60%;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 18px;
   margin: 13px 0 11px 0;
-  letter-spacing: 0.5px;
+  letter-spacing: 0px;
   position: relative;
   right: -12px;
   cursor: pointer;
@@ -197,14 +197,23 @@
   padding: 10px 0;
   border: none;
   border-bottom: 2px solid #000000;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 30px;
   margin-bottom: 20px;
-  letter-spacing: 0.5px;
   z-index: 0;
   outline: none;
+  &:-webkit-input-placeholder {
+    color: rgba(68, 68, 68, 0.3);
+  }
+  &:-moz-placeholder {
+    color: rgba(68, 68, 68, 0.3);
+  }
+  &:-ms-input-placeholder {
+    color: rgba(68, 68, 68, 0.3);
+  }
   &--phone {
-    letter-spacing: 1.4px;
+    letter-spacing: -0.1px;
+    font-size: 19px;
   }
   &:hover {
     border-color: #62d1ba;
@@ -246,9 +255,19 @@
   padding: 13px 5.5%;
   margin: 0;
   line-height: 18px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.1px;
   border: 2px solid #000000;
   font-size: 17px;
+  outline: none;
+  &:-webkit-input-placeholder {
+    color: rgba(68, 68, 68, 0.3);
+  }
+  &:-moz-placeholder {
+    color: rgba(68, 68, 68, 0.3);
+  }
+  &:-ms-input-placeholder {
+    color: rgba(68, 68, 68, 0.3);
+  }
   &:hover {
     border-color: #62d1ba;
   }
@@ -264,8 +283,8 @@
 }
 
 .form__button {
-  padding: 12px 41.5px;
-  margin: 31px 0 35px 30px;
+  padding: 12px 43.5px;
+  margin: 31px 0 55px 30px;
 }
 
 @media (min-width: $tablet-width) {
@@ -451,7 +470,7 @@
 
   .form__button {
     order: 1;
-    padding: 1.85% 26.5px;
+    padding: 1.85% 28px;
     margin: 32px 0 20px -5px;
   }
 
@@ -628,7 +647,7 @@
 
   .form__button {
     margin: 32px 0 20px -8px;
-    padding: 1.8% 26.5px;
+    padding: 1.8% 28.5px;
   }
 
   .form__span {

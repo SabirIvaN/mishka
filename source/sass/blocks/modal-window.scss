@@ -23,7 +23,7 @@
   line-height: 30px;
   text-transform: uppercase;
   width: 150px;
-  margin: 31px auto 11px auto;
+  margin: 31px auto 13px auto;
   text-align: center;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .modal-window__radio-buttons {
-  width: 257px;
+  width: 259px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -54,11 +54,11 @@
 
 .modal-window__label {
   display: block;
-  padding: 16px 33px;
+  padding: 16px 34px 15px 34px;
   text-align: center;
   border: 2px solid #ececec;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 16px;
   color: #444444;
   cursor: pointer;
@@ -107,7 +107,7 @@
     width: 160px;
     font-size: 17px;
     line-height: 30px;
-    margin-bottom: -32px;
+    margin-bottom: -30px;
   }
 
   .modal-window__radio-buttons {
@@ -118,13 +118,13 @@
   }
 
   .modal-window__label {
-    padding: 16px 14%;
+    padding: 18px 14% 13px 14%;
   }
 
   .modal-window__button {
     width: 350px;
     height: 52px;
     margin: 33px 0 0 0;
-    padding: 5% 30%;
+    padding: 3% 30%;
   }
 }

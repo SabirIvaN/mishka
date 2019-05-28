@@ -1,8 +1,8 @@
 .hero {
-  background: #f9f9f9 url("../img/hero-mobile@1x.jpg") no-repeat center -18px;
+  background: #f9f9f9 url("../img/hero-mobile@1x.jpg") no-repeat center -15px;
   width: 100%;
   padding: 71px 0 125px 0;
-  background-size: auto 320px;
+  background-size: auto 370px;
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/hero-mobile@2x.jpg");
       background-size: auto 320px;
