@@ -22,7 +22,7 @@
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
-  padding: 4px 0 24px 0;
+  padding: 4px 0 23px 0;
 }
 
 .page-footer__developed {
@@ -47,8 +47,7 @@
   justify-content: space-between;
   align-items: center;
   font-weight: 700;
-  font-size: 18px;
-  letter-spacing: 0.7px;
+  font-size: 19px;
   margin: -2px 0 0 -13px;
   color: #000000;
   text-decoration: none;
@@ -80,10 +79,6 @@
     margin: 7px 17px 0 27.8%;
   }
 
-  .page-footer__link {
-    letter-spacing: 0.5px;
-  }
-
   .page-footer__image {
     margin: 7px 0 0 30px;
   }
@@ -104,12 +99,11 @@
   }
 
   .page-footer__developed {
-    margin-top: 4px;
+    margin-top: 5px;
   }
 
   .page-footer__link {
     margin: 2px 0 0 0;
-    letter-spacing: 0.6px;
   }
 
   .page-footer__image {

@@ -36,12 +36,14 @@
   font-size: 17px;
   line-height: 30px;
   font-style: normal;
+  letter-spacing: 0.1px;
 }
 
 .comments__instagramm {
   font-size: 17px;
   line-height: 30px;
   font-style: normal;
+  color: #444444;
 }
 
 .comments__buttons {
@@ -79,9 +81,11 @@
 }
 
 .comments__write-button {
-  padding: 12px 31%;
+  display: inline-block;
+  padding: 12.2px 30%;
   margin-bottom: 30px;
   text-decoration: none;
+  font-size: 18px;
 }
 
 @media (min-width: $tablet-width) {
@@ -121,9 +125,10 @@
   }
 
   .comments__name {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 24px;
     margin: 1px 0 5px -1px;
+    letter-spacing: 0.7px;
   }
 
   .comments__instagramm {
@@ -136,15 +141,16 @@
     width: 173px;
     border: none;
     position: absolute;
-    bottom: 39px;
-    right: 51px;
+    bottom: 38px;
+    right: 50px;
   }
 
   .comments__write-button {
-    padding: 12px 5%;
+    padding: 12px 4.9%;
     position: absolute;
     top: 103px;
     right: 50px;
+    font-size: 17px;
   }
 }
 
@@ -196,6 +202,10 @@
     letter-spacing: -0.4px;
   }
 
+  .comments__name {
+    letter-spacing: 0.2px;
+  }
+
   .comments__instagramm {
     margin-top: -1px;
     letter-spacing: 0px;
@@ -203,14 +213,14 @@
 
   .comments__buttons {
     position: absolute;
-    bottom: 75px;
-    right: -90px;
+    bottom: 73px;
+    right: -92px;
   }
 
   .comments__write-button {
     position: absolute;
     top: 110px;
     padding: 12px 3.6%;
-    right: -90px;
+    right: -91px;
   }
 }

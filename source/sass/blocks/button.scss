@@ -1,4 +1,5 @@
 .button {
+  display: block;
   border: 2px solid #444444;
   text-transform: uppercase;
   font-weight: 700;
@@ -7,7 +8,7 @@
   line-height: 24px;
   padding: 14px 33%;
   background: #FFFFFF;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.15px;
   cursor: pointer;
   outline: none;
   &:hover {

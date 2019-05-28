@@ -6,6 +6,12 @@
   border: 1px solid #ededed;
   display: flex;
   flex-direction: column;
+  &:hover {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  &:active {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  }
 }
 
 .produce__title {
@@ -70,8 +76,8 @@
 }
 
 .produce__button {
-  padding: 12px 21px;
-  margin: 12px 17px 32px 23px;
+  padding: 12px 23px;
+  margin: 25px 17px 32px 24px;
 }
 
 @media (min-width: $tablet-width) {
@@ -114,7 +120,7 @@
 
   .produce__button {
     margin: 0 -14px 45px 5.1%;
-    padding: 12px 36.1%;
+    padding: 12px 36.45%;
   }
 }
 
@@ -163,6 +169,6 @@
     position: absolute;
     bottom: 14px;
     right: 72px;
-    padding: 1.15% 40px;
+    padding: 1.15% 42px;
   }
 }

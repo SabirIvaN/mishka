@@ -1,5 +1,6 @@
 .contacts {
   width: 320px;
+  margin-bottom: 39px;
 }
 
 .contacts__container {
@@ -69,13 +70,15 @@
   border: none;
   width: 320px;
   height: 457px;
+  border: none;
 }
 
 .contacts__button {
-  width: 260px;
-  margin: 0 0 20px 30px;
-  padding: 12px 50px;
+  display: inline-block;
+  margin: 0 0 0 30px;
+  padding: 12px 15%;
   text-decoration: none;
+  font-size: 18px;
 }
 
 @media (min-width: $tablet-width) {
@@ -160,8 +163,9 @@
 
   .contacts__button {
     width: auto;
-    margin-left: 32.8%;
-    padding: 12px 36px;
+    margin-left: 35%;
+    padding: 12px 38px;
+    font-size: 17px;
   }
 }
 
@@ -226,7 +230,7 @@
   .contacts__button {
     position: absolute;
     bottom: -75px;
-    left: -169px;
-    padding: 12px 36px;
+    left: -192px;
+    padding: 12px 38px;
   }
 }

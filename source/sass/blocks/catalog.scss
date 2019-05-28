@@ -46,7 +46,7 @@
   line-height: 24px;
   color: #000000;
   letter-spacing: 0.1px;
-  margin: 0 0 5px 2px;
+  margin: -4px 0 5px 2px;
   &:hover {
     opacity: 0.6;
   }
@@ -77,10 +77,11 @@
 
 .catalog__price {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 24px;
   margin-left: -12px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.1px;
+  margin-top: 1px;
 }
 
 .catalog__purchase {
@@ -130,6 +131,7 @@
     width: 334px;
     height: 334px;
     margin: 0;
+    display: block;
   }
 
   .catalog__title {
@@ -178,7 +180,7 @@
   .catalog__item {
     width: 315px;
     display: flex;
-    margin: -1px 0 53px -1px;
+    margin: -1px 0 52px -1px;
   }
 
   .catalog__image {
@@ -219,6 +221,6 @@
   .catalog__cost {
     width: 77%;
     padding-left: 14px;
-    margin: -7px 0 24px 26px;
+    margin: -7px 0 26px 26px;
   }
 }
