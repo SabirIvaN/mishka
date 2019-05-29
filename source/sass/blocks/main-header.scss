@@ -1,7 +1,9 @@
 .main-header {
-  padding: 70px 0 76px 0;
+  padding: 72px 0 75px 0;
   margin-bottom: 30px;
   background: #f1f1f1;
+  position: relative;
+  z-index: -1;
 }
 
 .main-header__title {
@@ -17,7 +19,7 @@
 
 @media (min-width: $tablet-width) {
   .main-header {
-    padding: 94px 0 88px 0;
+    padding: 95px 0 89px 0;
     position: relative;
     margin-bottom: 71px;
     &::after {
@@ -43,7 +45,7 @@
 
 @media (min-width: $desktop-width) {
   .main-header {
-    padding: 93px 0 107px 0;
+    padding: 94px 0 107px 0;
     margin-bottom: 126px;
     &::after {
       background-size: 1150px;

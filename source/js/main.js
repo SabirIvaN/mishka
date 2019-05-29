@@ -1,10 +1,12 @@
 var buttonMenu = document.querySelector("#main-nav__button");
 var formMenu_1 = document.querySelector("#main-nav__list-1");
 var formMenu_2 = document.querySelector("#main-nav__list-2");
+var formMenu_3 = document.querySelector("#main-nav__list-3");
 
 buttonMenu.classList.add("main-nav__button--shower");
 formMenu_1.classList.add("main-nav__list--hidden");
 formMenu_2.classList.add("main-nav__list--hidden");
+formMenu_3.classList.add("main-nav__list--hidden");
 
 buttonMenu.addEventListener("click", function() {
   event.preventDefault();

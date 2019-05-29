@@ -221,6 +221,9 @@
   &:focus {
     border-color: #62d1ba;
   }
+  &:required:invalid {
+    border-color: #e8431b;
+  }
 }
 
 .form__icon {
@@ -470,7 +473,7 @@
 
   .form__button {
     order: 1;
-    padding: 1.85% 28px;
+    padding: 1.85% 29px;
     margin: 32px 0 20px -5px;
   }
 

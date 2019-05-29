@@ -1,0 +1,24 @@
+.added-navigation {
+  display: none;
+}
+
+@media (min-width: 1150px) {
+  .added-navigation {
+    width: 500px;
+    display: flex;
+    order: 3;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .added-navigation__item {
+    margin-right: 30px;
+  }
+
+  .added-navigation__link {
+    display: block;
+    padding: 17px 29px 18px 0;
+  }
+}
