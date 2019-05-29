@@ -4,6 +4,8 @@
 
 @media (min-width: 768px) {
   .page-main {
-    margin: -60px auto 20px auto;
+    position: relative;
+    top: -60px;
+    z-index: -1;
   }
 }
