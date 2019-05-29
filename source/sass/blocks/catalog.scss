@@ -10,9 +10,11 @@
   flex-wrap: wrap;
   border: 1px solid #ededed;
   margin-bottom: 30px;
+
   &:hover .catalog__content {
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
   }
+
   &:active .catalog__content {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
   }
@@ -47,9 +49,11 @@
   color: #000000;
   letter-spacing: 0.1px;
   margin: -4px 0 5px 2px;
+
   &:hover {
     opacity: 0.6;
   }
+
   &:active {
     opacity: 0.3;
   }
@@ -93,10 +97,12 @@
   border: none;
   margin-right: -15px;
   outline: none;
+
   &:hover {
     background-image: url("../img/icon-cart-hover.svg");
     cursor: pointer;
   }
+
   &:active {
     background-image: url("../img/icon-cart-active.svg");
   }
@@ -149,12 +155,14 @@
     line-height: 30px;
     letter-spacing: 0.4px;
     margin-left: -8px;
+
     &--two {
-      letter-spacing: 0px;
+      letter-spacing: 0;
       margin: 3px 0 0 -8px;
     }
+
     &--three {
-      letter-spacing: 0px;
+      letter-spacing: 0;
     }
   }
 
@@ -199,6 +207,7 @@
   .catalog__title {
     margin: 20px 0 5px -5px;
     letter-spacing: 0.1px;
+
     &--cart {
       margin-bottom: 2px;
     }
@@ -207,9 +216,11 @@
   .catalog__description {
     margin-left: -5px;
     letter-spacing: 0.3px;
+
     &--two {
       letter-spacing: -0.1px;
     }
+
     &--three {
       letter-spacing: 0;
     }

@@ -6,9 +6,11 @@
   border: 1px solid #ededed;
   display: flex;
   flex-direction: column;
+
   &:hover {
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
   }
+
   &:active {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
   }
@@ -22,6 +24,7 @@
   padding-left: 90px;
   position: relative;
   margin: 12px 0 13px 0;
+
   &::before {
     content: "";
     display: block;
@@ -38,10 +41,12 @@
   &:nth-child(1) {
     margin-bottom: 11px;
   }
+
   &:nth-child(2) {
     margin-bottom: 11px;
     position: relative;
   }
+
   &:nth-child(3) {
     width: 90%;
     margin-left: 11px;
@@ -59,10 +64,12 @@
   transform: translate(-50%, -50%);
   border: none;
   outline: none;
+
   &:hover {
     cursor: pointer;
     transform: translate(-50%, -50%) scale(1.2);
   }
+
   &:active {
     transform: translate(-50%, -50%) scale(0.8);
     opacity: 0.8;
@@ -93,6 +100,7 @@
     line-height: 24px;
     margin: 24px 0 0 16px;
     letter-spacing: 0.2px;
+
     &::before {
       top: 0;
       left: 26px;
@@ -103,9 +111,11 @@
     &:nth-child(1) {
       order: 2;
     }
+
     &:nth-child(2) {
       order: 1;
     }
+
     &:nth-child(3) {
       order: 3;
     }
@@ -134,25 +144,26 @@
     justify-content: flex-start;
     position: relative;
     margin: 5px auto 105px auto;
-  }
 
-  .produce__block:nth-child(1) {
-    width: 100px;
-    margin: 71px 0 0 -29px;
-  }
+    &:nth-child(1) {
+      width: 100px;
+      margin: 71px 0 0 -29px;
+    }
 
-  .produce__block:nth-child(2) {
-    width: 682px;
-    height: 455px;
-  }
+    &:nth-child(2) {
+      width: 682px;
+      height: 455px;
+    }
 
-  .produce__block:nth-child(3) {
-    width: 300px;
-    margin: 12px 0 0 107px;
+    &:nth-child(3) {
+      width: 300px;
+      margin: 12px 0 0 107px;
+    }
   }
 
   .produce__title {
     margin: 25px 0 0 17px;
+
     &::before {
       top: -49px;
       left: 92px;

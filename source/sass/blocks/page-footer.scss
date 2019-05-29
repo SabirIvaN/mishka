@@ -1,5 +1,6 @@
 .page-footer {
   background-color: #f1f1f1;
+
   &--catalog {
     margin-top: -2px;
   }
@@ -7,9 +8,11 @@
 
 .page-footer__logo {
   display: none;
+
   &:hover {
     fill: rgba(98, 209, 186, 1);
   }
+
   &:active {
     opacity: 0.3;
   }
@@ -33,9 +36,11 @@
   width: 70%;
   cursor: pointer;
   margin: -1px 0 0 9%;
+
   &:hover .page-footer__image {
-    opacity: 0.8;
+    fill: #46c1ae;
   }
+
   &:active {
     opacity: 0.3;
   }
@@ -59,6 +64,7 @@
 
 .page-footer__image {
   margin: 5px 0 0 29px;
+  fill: #63d1bb;
 }
 
 @media (min-width: $tablet-width) {

@@ -63,18 +63,22 @@
   width: 50px;
   height: 28px;
   outline: none;
+
   &--backward {
     background: #ffffff url("../img/icon-left-arrow.svg") no-repeat center center;
     margin-left: -3px;
   }
+
   &--forward {
     background: #ffffff url("../img/icon-right-arrow.svg") no-repeat center center;
     margin-right: 1px;
   }
+
   &:hover {
     opacity: 0.6;
     cursor: pointer;
   }
+
   &:active {
     opacity: 0.3;
   }
@@ -93,12 +97,13 @@
     position: relative;
     margin: 31px auto 43px auto;
     padding: 20px 0;
-    background:  url("../img/review@1x.jpg") no-repeat left 24px;
+    background: url("../img/review@1x.jpg") no-repeat left 24px;
     background-size: 350px 457px;
+
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-        background-image: url("../img/review@2x.jpg");
-        background-size: 350px 457px;
-      }
+      background-image: url("../img/review@2x.jpg");
+      background-size: 350px 457px;
+    }
   }
 
   .comments__container {
@@ -159,10 +164,12 @@
     width: 1050px;
     background: url("../img/review@1x.jpg") no-repeat 91px 31px;
     background-size: 350px 457px;
+
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-        background-image: url("../img/review@2x.jpg");
-        background-size: 350px 457px;
-      }
+      background-image: url("../img/review@2x.jpg");
+      background-size: 350px 457px;
+    }
+
     height: 460px;
     margin: 31px auto 57px auto;
     position: relative;
@@ -208,7 +215,7 @@
 
   .comments__instagramm {
     margin-top: -1px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
   }
 
   .comments__buttons {

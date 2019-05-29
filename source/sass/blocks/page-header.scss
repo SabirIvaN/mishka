@@ -2,6 +2,7 @@
   .page-header {
     position: relative;
     border-bottom: 1px solid #ececec;
+
     &::before {
       content: "";
       display: block;
@@ -18,9 +19,11 @@
   .page-header {
     background-color: #f9f9f9;
     border-bottom: none;
+
     &--page {
       background-color: #f1f1f1;
     }
+
     &::before {
       height: 87px;
     }

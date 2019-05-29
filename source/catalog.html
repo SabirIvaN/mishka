@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Mishka | Каталог товаров</title>
+    <link rel="preload" href="fonts/opensans.woff2" as="font">
+    <link rel="preload" href="fonts/opensansbold.woff2" as="font">
+    <link rel="preload" href="fonts/opensans.woff" as="font">
+    <link rel="preload" href="fonts/opensansbold.woff" as="font">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/style.min.css">
   </head>
@@ -63,7 +67,7 @@
             </div>
             <div class="catalog__cost">
               <span class="catalog__price">1 200 руб.</span>
-              <a class="catalog__purchase" href="buy.rabbit.size.html">Купить</a>
+              <a class="catalog__purchase" href="buy-rabbit-size.html">Купить</a>
             </div>
           </div>
         </article>
@@ -84,7 +88,7 @@
             </div>
             <div class="catalog__cost">
               <span class="catalog__price">690 руб.</span>
-              <a class="catalog__purchase" href="buy.bowl.size.html">Купить</a>
+              <a class="catalog__purchase" href="buy-bowl-size.html">Купить</a>
             </div>
           </div>
         </article>
@@ -105,7 +109,7 @@
             </div>
             <div class="catalog__cost">
               <span class="catalog__price">1 500 руб.</span>
-              <a class="catalog__purchase" href="buy.toys.html"></a>
+              <a class="catalog__purchase" href="buy-toys-size.html"></a>
             </div>
           </div>
         </article>
@@ -130,8 +134,8 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer container">
-      <div class="page-footer__container">
+    <footer class="page-footer">
+      <div class="page-footer__container container">
         <a href="#">
           <svg class="page-footer__logo" width="102px" height="34px">
             <use x="0" y="0" xlink:href="#logo-footer"></use>
@@ -143,7 +147,12 @@
           <li class="social-networks__icon"><a class="social-networks__item-link social-networks__item-link--twitter" href="#">Twitter</a></li>
         </ul>
         <section class="page-footer__developed">
-          <h2 class="page-footer__title"><a class="page-footer__link" href="https://htmlacademy.ru/intensive/adaptive">Разработано <img class="page-footer__image" src="img/logo-htmlacademy.svg" width="23" height="34" alt="HTML Academy"></a></h2>
+          <h2 class="page-footer__title"><a class="page-footer__link" href="https://htmlacademy.ru/intensive/adaptive">Разработано
+              <svg class="page-footer__image" width="27px" height="34px" alt="HTML Academy">
+                <use x="0" y="0" xlink:href="#logo-htmlacademy"></use>
+              </svg>
+            </a>
+          </h2>
         </section>
       </div>
     </footer>

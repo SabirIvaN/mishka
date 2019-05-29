@@ -26,6 +26,7 @@
 .contacts__item {
   display: block;
   margin: -1px 0 -5px -1px;
+
   &:nth-child(2) {
     margin-left: -2px;
   }
@@ -34,43 +35,47 @@
 .contacts__field {
   width: 20%;
   vertical-align: top;
-  padding:  0 0 30px 0;
+  padding: 0 0 30px 0;
 }
 
 .contacts__value {
   width: 80%;
   padding: 0 0 30px 30px;
+
   &--address {
     padding-left: 25px;
   }
 }
 
 .contacts__email {
-    width: 80px;
-    border-bottom: 1px solid #62d1ba;
-    padding-bottom: 4px;
-    text-decoration: none;
-    color: inherit;
-    &:hover {
-      color: rgba(70, 193, 174, 1);
-    }
-    &:active {
-      opacity: 0.3;
-    }
+  width: 80px;
+  border-bottom: 1px solid #62d1ba;
+  padding-bottom: 4px;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: rgba(70, 193, 174, 1);
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .contacts__map {
   margin: -30px auto 36px auto;
   background: #dfdfdf url("../img/map-mobile@1x.jpg") no-repeat center center;
   background-size: 320px 457px;
+
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-      background-image: url("../img/map-mobile@2x.jpg");
-      background-size: 320px 457px;
-    }
+    background-image: url("../img/map-mobile@2x.jpg");
+    background-size: 320px 457px;
+  }
+
   border: none;
   width: 320px;
   height: 457px;
-  border: none;
 }
 
 .contacts__button {
@@ -93,6 +98,7 @@
     margin: 0 0 46px -4px;
     position: relative;
     letter-spacing: -0.2px;
+
     &::after {
       content: "";
       display: block;
@@ -136,6 +142,7 @@
 
   .contacts__value {
     width: 230px;
+
     &--address {
       padding-left: 23px;
       letter-spacing: -0.1px;
@@ -153,10 +160,12 @@
     height: 457px;
     background: url("../img/map-tablet@1x.jpg") no-repeat center center;
     background-size: 768px 460px;
+
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-        background-image: url("../img/map-tablet@2x.jpg");
-        background-size: 768px 460px;
-      }
+      background-image: url("../img/map-tablet@2x.jpg");
+      background-size: 768px 460px;
+    }
+
     margin: 0 auto;
     margin-bottom: 52px;
   }
@@ -179,6 +188,7 @@
   }
 
   .contacts__container {
+    width: 350px;
     margin-left: 147px;
   }
 
@@ -188,14 +198,11 @@
     position: relative;
     margin: 0 0 45px 20px;
     letter-spacing: -0.5px;
+
     &::after {
       top: -9px;
       left: -107px;
     }
-  }
-
-  .contacts__container {
-    width: 350px;
   }
 
   .contacts__tbody {
@@ -216,10 +223,12 @@
   .contacts__map {
     background: url("../img/map-desktop@1x.jpg") no-repeat center center;
     background-size: 525px 457px;
+
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-        background-image: url("../img/map-desktop@2x.jpg");
-        background-size: 525px 457px;
-      }
+      background-image: url("../img/map-desktop@2x.jpg");
+      background-size: 525px 457px;
+    }
+
     width: 525px;
     height: 457px;
     position: absolute;

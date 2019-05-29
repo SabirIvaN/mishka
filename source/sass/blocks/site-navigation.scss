@@ -18,11 +18,11 @@
     width: 420px;
     font-size: 17px;
     order: 0;
-  }
 
-  .site-navigation__item:nth-child(1) {
-    margin-right: 34px;
-    border-right: 1px solid #ececec;
+    &:nth-child(1) {
+      margin-right: 34px;
+      border-right: 1px solid #ececec;
+    }
   }
 
   .site-navigation__link {

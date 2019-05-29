@@ -7,15 +7,17 @@
   font-size: 17px;
   line-height: 24px;
   padding: 14px 33%;
-  background: #FFFFFF;
+  background: #ffffff;
   letter-spacing: 0.15px;
   cursor: pointer;
   outline: none;
+
   &:hover {
     background: #444444;
-    color: #FFFFFF;
+    color: #ffffff;
   }
+
   &:active {
-    color: #8D8D8D;
+    color: #8d8d8d;
   }
 }

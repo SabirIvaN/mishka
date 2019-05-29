@@ -1,6 +1,7 @@
 .about {
   padding: 0 0 22px 0;
   position: relative;
+
   &::before {
     content: "";
     display: block;
@@ -41,15 +42,18 @@
   position: relative;
   margin-bottom: 55px;
   letter-spacing: 0.1px;
+
   &::before {
     position: absolute;
     content: "";
     display: block;
     margin: 0 0 10px 0;
   }
+
   &:nth-child(1) {
     width: 180px;
   }
+
   &:nth-child(1)::before {
     width: 32px;
     height: 37px;
@@ -58,9 +62,11 @@
     top: -54px;
     left: -1px;
   }
+
   &:nth-child(2) {
     width: 210px;
   }
+
   &:nth-child(2)::before {
     width: 48px;
     height: 28px;
@@ -68,9 +74,11 @@
     top: -53px;
     left: 0;
   }
+
   &:nth-child(3) {
     width: 200px;
   }
+
   &:nth-child(3)::before {
     width: 34px;
     height: 28px;
@@ -79,10 +87,12 @@
     top: -48px;
     left: -2px;
   }
+
   &:nth-child(4) {
     width: 220px;
     margin-left: 1px;
   }
+
   &:nth-child(4)::before {
     width: 35px;
     height: 35px;
@@ -91,11 +101,13 @@
     top: -51px;
     left: -2px;
   }
+
   &:nth-child(5) {
     width: 260px;
     margin-top: 1px;
     margin-left: 1px;
   }
+
   &:nth-child(5)::before {
     width: 55px;
     height: 23px;
@@ -104,11 +116,13 @@
     top: -50px;
     left: -1px;
   }
+
   &:nth-child(6) {
     width: 250px;
     margin-top: 1px;
     margin-left: 1px;
   }
+
   &:nth-child(6)::before {
     width: 33px;
     height: 32px;
@@ -123,6 +137,7 @@
   .about {
     padding-bottom: 17px;
     margin-bottom: 61px;
+
     &::before {
       background-size: 768px 17px;
       background-position: 19px bottom;
@@ -130,6 +145,7 @@
       height: 17px;
     }
   }
+
   .about__container {
     width: 668px;
     margin: 0 auto;
@@ -153,26 +169,31 @@
     font-size: 20px;
     line-height: 22px;
     letter-spacing: 0.1px;
+
     &:nth-child(1) {
       width: 220px;
       margin: 2px 17% 0 1px;
       order: 1;
     }
+
     &:nth-child(2) {
       width: 240px;
       order: 3;
       margin: 30px 10% 0 1px;
     }
+
     &:nth-child(3) {
       width: 240px;
       order: 5;
       margin: 83px 13% 0 1px;
     }
+
     &:nth-child(4) {
       width: 250px;
       order: 2;
       margin: 2px 0 53px 1px;
     }
+
     &:nth-child(5) {
       width: 50%;
       order: 4;
@@ -181,6 +202,7 @@
       margin: 30px 0 0 2px;
       letter-spacing: 0.2px;
     }
+
     &:nth-child(6) {
       margin: 83px 0 0 7px;
       order: 6;
@@ -192,13 +214,15 @@
   .about {
     width: 100%;
     margin-bottom: 103px;
+
     &::before {
       background-size: 1050px 21px;
       background-repeat: repeat-x;
       background-position: 24px bottom;
       width: 1050px;
       height: 21px;
-      left: 188px;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 
@@ -218,22 +242,28 @@
   .about__item {
     margin-bottom: 50px;
     letter-spacing: 0.1px;
+
     &:nth-child(1) {
       margin-left: -1px;
     }
+
     &:nth-child(2) {
       margin: 30px 81px 0 -1px;
     }
+
     &:nth-child(3) {
       margin: 78px 104px 0 0;
     }
+
     &:nth-child(4) {
       margin-left: -6px;
     }
+
     &:nth-child(5) {
       margin: 30px 0 5px 4px;
       letter-spacing: 0.2px;
     }
+
     &:nth-child(6) {
       margin: 78px 0 0 6px;
     }
