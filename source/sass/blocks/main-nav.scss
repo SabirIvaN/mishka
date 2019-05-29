@@ -1,9 +1,13 @@
+.main-nav {
+  position: relative;
+  z-index: 1;
+}
+
 .main-nav__logo-wrapper {
   position: relative;
   display: flex;
   justify-content: center;
   padding: 22px 30px 21px;
-  border-bottom: 1px solid #ececec;
   z-index: 1;
 }
 
@@ -59,7 +63,7 @@
 .main-nav__link {
   position: relative;
   display: block;
-  padding: 27px 30px 27px 75px;
+  padding: 28px 30px 27px 75px;
   border-bottom: 1px solid #ececec;
   color: #000000;
   text-decoration: none;
@@ -84,6 +88,9 @@
   }
   &--search:active::before {
     background: url("../img/icon-search-active.svg") no-repeat center center;
+  }
+  &--cart {
+    border-bottom: none;
   }
   &--cart::before {
     content: "";

@@ -19,9 +19,9 @@
 
 @media (min-width: $tablet-width) {
   .main-header {
-    padding: 95px 0 89px 0;
+    padding: 37px 0 89px 0;
     position: relative;
-    margin-bottom: 71px;
+    margin-bottom: 70px;
     &::after {
       content: "";
       display: block;
@@ -45,7 +45,7 @@
 
 @media (min-width: $desktop-width) {
   .main-header {
-    padding: 94px 0 107px 0;
+    padding: 35px 0 107px 0;
     margin-bottom: 126px;
     &::after {
       background-size: 1150px;
