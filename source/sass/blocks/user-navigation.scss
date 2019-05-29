@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  .user-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 398px;
+    border-bottom: 1px solid #ececec;
+  }
+}
+
+@media (min-width: 1150px) {
+  .user-navigation {
+    width: 400px;
+    order: 2;
+  }
+}

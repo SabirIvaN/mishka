@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+  .site-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 49px;
+    width: 50%;
+    font-size: 15px;
+    order: 1;
+  }
+
+  .site-navigation__link {
+    padding: 17px 35px 18px 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .site-navigation {
+    width: 420px;
+    border-bottom: 1px solid #ececec;
+    font-size: 17px;
+    order: 0;
+  }
+
+  .site-navigation__item:nth-child(1) {
+    margin-right: 34px;
+    border-right: 1px solid #ececec;
+  }
+
+  .site-navigation__link {
+    padding: 31px 35px 33px 0;
+  }
+}
