@@ -1,7 +1,17 @@
 .featured {
-  background: url("../img/bg-zigzag-line.svg") repeat-x 7px bottom;
-  background-size: 320px 7px;
   padding: 0 0 20px 0;
+  position: relative;
+  &::before {
+    content: "";
+    display: block;
+    background: url("../img/bg-zigzag-line.svg") repeat-x 7px bottom;
+    background-size: 320px 7px;
+    position: absolute;
+    width: 320px;
+    height: 7px;
+    bottom: 0;
+    left: 0;
+  }
 }
 
 .featured__container {
@@ -110,10 +120,14 @@
 
 @media (min-width: $tablet-width) {
   .featured {
-    background-size: 768px 17px;
-    background-position: 19px bottom;
     margin-bottom: 48px;
     padding-left: 1px;
+    &::before {
+      background-size: 768px 17px;
+      background-position: 19px bottom;
+      width: 768px;
+      height: 17px;
+    }
   }
 
   .featured__container {
@@ -215,10 +229,15 @@
 
 @media (min-width: $desktop-width) {
   .featured {
-    margin: 0 0 58px 0;
-    background-size: 1050px 21px;
-    background-repeat: repeat-x;
-    background-position: 24px bottom;
+    margin: 0 auto 58px auto;
+    &::before {
+      background-size: 1050px 21px;
+      background-repeat: repeat-x;
+      background-position: 24px bottom;
+      width: 1050px;
+      height: 21px;
+      left: 50px;
+    }
   }
 
   .featured__container {

@@ -1,0 +1,28 @@
+@media (min-width: 320px) {
+  .page-header {
+    position: relative;
+    border-bottom: 1px solid #ececec;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 78px;
+      border-bottom: 1px solid #ececec;
+      background-color: #ffffff;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .page-header {
+    background-color: #f9f9f9;
+    border-bottom: none;
+    &--page {
+      background-color: #f1f1f1;
+    }
+    &::before {
+      height: 87px;
+    }
+  }
+}
