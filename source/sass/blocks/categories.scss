@@ -16,17 +16,21 @@
   display: flex;
   width: 100%;
   margin-top: -4px;
+
   &--light {
     background: #63d1bb;
   }
+
   &--dark {
     background: #46c1ae;
   }
+
   &::after {
     content: "";
     display: block;
     position: absolute;
   }
+
   &--light::after {
     background: url("../img/icon-interior.svg") no-repeat center center;
     width: 40px;
@@ -34,6 +38,7 @@
     top: 23px;
     right: 36px;
   }
+
   &--dark::after {
     background: url("../img/icon-toy.svg") no-repeat center center;
     width: 60px;
@@ -41,9 +46,11 @@
     top: 21px;
     right: 27px;
   }
+
   &:hover {
     cursor: pointer;
   }
+
   &:active::after {
     opacity: 0.3;
   }
@@ -59,6 +66,7 @@
   width: 150px;
   letter-spacing: 0.2px;
   padding: 25px 45% 34px 9%;
+
   &--toys {
     padding: 25px 45% 30px 9%;
   }
@@ -73,6 +81,7 @@
     margin: -3px auto 33px auto;
     position: relative;
     background: #f8f8f8;
+
     &::after {
       content: "";
       display: block;
@@ -87,20 +96,25 @@
 
   .categories__item {
     width: 43.5%;
+
     &:nth-child(1) {
       margin-left: 6.5%;
     }
+
     &:nth-child(2) {
       width: 43.4%;
     }
+
     &--light::after {
       top: 30px;
       right: 37px;
     }
+
     &--dark::after {
       top: 32px;
       right: 35px;
     }
+
     &:hover {
       transform: translateY(-5px);
     }
@@ -113,6 +127,7 @@
     line-height: 30px;
     letter-spacing: 0.1px;
     padding: 35px 55.5% 35px 10%;
+
     &--toys {
       padding: 35px 55.5% 35px 11%;
     }
@@ -122,6 +137,7 @@
 @media (min-width: $desktop-width) {
   .categories {
     margin-bottom: 112px;
+
     &::after {
       background-size: auto 37px;
       background-position: 11.6px 1px;
@@ -133,14 +149,17 @@
       width: 45.7%;
       margin-left: 4.34%;
     }
+
     &:nth-child(2) {
       width: 45.6%;
       margin-right: 4.34%;
     }
+
     &--light::after {
       top: 30px;
       right: 36px;
     }
+
     &--dark::after {
       top: 32px;
       right: 35px;

@@ -1,6 +1,7 @@
 .featured {
   padding: 0 0 20px 0;
   position: relative;
+
   &::before {
     content: "";
     display: block;
@@ -57,12 +58,15 @@
   position: relative;
   display: flex;
   letter-spacing: 0.01px;
+
   &:nth-child(1) {
     margin-bottom: -1px;
   }
+
   &:nth-child(2) {
     margin-bottom: -1px;
   }
+
   &::before {
     content: "";
     display: block;
@@ -82,14 +86,17 @@
 
 .featured__value {
   display: block;
+
   &--color {
     margin-left: 56px;
     letter-spacing: -0.4px;
   }
+
   &--sm {
     margin-left: 28px;
     letter-spacing: -0.2px;
   }
+
   &--height {
     margin-left: 39px;
     letter-spacing: -0.4px;
@@ -104,7 +111,6 @@
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  margin: 0;
   padding: 0;
   text-align: center;
   color: #444444;
@@ -122,6 +128,7 @@
   .featured {
     margin-bottom: 48px;
     padding-left: 1px;
+
     &::before {
       background-size: 768px 17px;
       background-position: 19px bottom;
@@ -175,9 +182,11 @@
     &:nth-child(2) {
       margin-top: -1px;
     }
+
     &:nth-child(3) {
       margin-top: -1px;
     }
+
     &::before {
       width: 291px;
       left: -3px;
@@ -191,14 +200,17 @@
 
   .featured__value {
     padding: 1px 0;
+
     &--color {
       margin-left: 57px;
       letter-spacing: -0.4px;
     }
+
     &--sm {
       margin-left: 29px;
       letter-spacing: -0.2px;
     }
+
     &--height {
       margin-left: 40px;
       letter-spacing: -0.6px;
@@ -230,6 +242,7 @@
 @media (min-width: $desktop-width) {
   .featured {
     margin: 0 auto 58px auto;
+
     &::before {
       background-size: 1050px 21px;
       background-repeat: repeat-x;
@@ -281,12 +294,15 @@
     &:nth-child(1) {
       margin-top: 1px;
     }
+
     &:nth-child(2) {
       margin-top: -1px;
     }
+
     &:nth-child(3) {
       margin-top: -1px;
     }
+
     &::before {
       width: 290px;
       margin-top: 33px;
@@ -298,9 +314,11 @@
       margin-left: 56px;
       letter-spacing: -0.3px;
     }
+
     &--sm {
       margin-left: 29px;
     }
+
     &--height {
       margin-left: 40px;
       letter-spacing: -0.3px;
@@ -308,7 +326,7 @@
   }
 
   .featured__settings {
-    margin-top: 100px
+    margin-top: 100px;
   }
 
   .featured__text {
