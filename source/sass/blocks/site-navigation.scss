@@ -21,7 +21,7 @@
   }
 
   .site-navigation__item {
-    &:nth-child(1) {
+    &--catalog {
       margin-right: 34px;
       border-right: 1px solid #ececec;
     }

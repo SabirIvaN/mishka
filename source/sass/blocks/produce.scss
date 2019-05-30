@@ -144,7 +144,9 @@
     justify-content: flex-start;
     position: relative;
     margin: 5px auto 105px auto;
+  }
 
+  .produce__block {
     &:nth-child(1) {
       width: 100px;
       margin: 71px 0 0 -29px;
